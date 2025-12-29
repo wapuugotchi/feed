@@ -19,15 +19,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Go
+        uses: actions/setup-go@v5
         with:
-          python-version: "3.x"
+          go-version: "1.22"
 
-      - name: Run checks
+      - name: Run update
         run: |
-          python3 scripts/check_wordpress.py
-          python3 scripts/build_feed.py
+          go run ./cmd/feed-update
 
       - name: Commit and push if changed
         run: |
