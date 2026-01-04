@@ -10,7 +10,11 @@
       <title>WordPress 6.9 “Gene”</title>
       <link>https://wordpress.org/news/2025/12/gene/</link>
       <pubDate>Tue, 02 Dec 2025 20:12:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Major upgrades for team collaboration and content creation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Notes Feature:&lt;/strong&gt; Introduces block-level commenting to streamline reviewing and polishing content.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Command Palette:&lt;/strong&gt; Faster navigation across the entire dashboard for power users.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Abilities API:&lt;/strong&gt; Provides a standardized way to open the door for AI-powered and automated workflows.&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A major collaboration and creation upgrade.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Notes Feature:&lt;/strong&gt; Introduces block-level commenting to streamline reviewing and polishing content.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Command Palette:&lt;/strong&gt; Now faster for power users.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Abilities API:&lt;/strong&gt; Provides a standardized way to open the door for AI-powered and automated workflows.&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>General</category>
+      <category>Releases</category>
+      <category>6.9</category>
+      <category>releases</category>
     </item>
   </channel>
 </rss>

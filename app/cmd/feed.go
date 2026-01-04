@@ -23,11 +23,12 @@ type Site struct {
 }
 
 type Entry struct {
-	ID        string `json:"id"`
-	Title     string `json:"title"`
-	Link      string `json:"link"`
-	Content   string `json:"content"`
-	CreatedAt string `json:"created_at"`
+	ID         string   `json:"id"`
+	Title      string   `json:"title"`
+	Link       string   `json:"link"`
+	Content    string   `json:"content"`
+	CreatedAt  string   `json:"created_at"`
+	Categories []string `json:"categories,omitempty"`
 }
 
 type State struct {
@@ -45,11 +46,12 @@ type WordPressChannel struct {
 }
 
 type WordPressItem struct {
-	Title       string `xml:"title"`
-	Link        string `xml:"link"`
-	GUID        string `xml:"guid"`
-	PubDate     string `xml:"pubDate"`
-	Description string `xml:"description"`
+	Title       string   `xml:"title"`
+	Link        string   `xml:"link"`
+	GUID        string   `xml:"guid"`
+	PubDate     string   `xml:"pubDate"`
+	Description string   `xml:"description"`
+	Categories  []string `xml:"category"`
 }
 
 type RSS struct {
@@ -67,11 +69,12 @@ type Channel struct {
 }
 
 type Item struct {
-	ID          string `xml:"id"`
-	Title       string `xml:"title"`
-	Link        string `xml:"link"`
-	PubDate     string `xml:"pubDate"`
-	Description string `xml:"description"`
+	ID          string   `xml:"id"`
+	Title       string   `xml:"title"`
+	Link        string   `xml:"link"`
+	PubDate     string   `xml:"pubDate"`
+	Description string   `xml:"description"`
+	Categories  []string `xml:"category,omitempty"`
 }
 
 func RunFeedUpdate() error {
@@ -116,11 +119,12 @@ func RunFeedUpdate() error {
 	id := pickEntryID(latest)
 	if !idExists(entries, id) {
 		entries = append(entries, Entry{
-			ID:        id,
-			Title:     latest.Title,
-			Link:      latest.Link,
-			Content:   text,
-			CreatedAt: createdAt,
+			ID:         id,
+			Title:      latest.Title,
+			Link:       latest.Link,
+			Content:    text,
+			CreatedAt:  createdAt,
+			Categories: latest.Categories,
 		})
 	}
 
@@ -228,6 +232,7 @@ func buildFeed(site Site, entries []Entry, outputPath string) error {
 			ID:          entry.ID,
 			PubDate:     createdAt.UTC().Format(time.RFC1123Z),
 			Description: entry.Content,
+			Categories:  entry.Categories,
 		})
 	}
 
