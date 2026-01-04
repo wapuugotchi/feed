@@ -4,27 +4,20 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description>Automatisierte Updates und Checks als RSS Feed.</description>
-    <lastBuildDate>Wed, 03 Dec 2025 20:12:21 +0000</lastBuildDate>
-    <item>
-      <title>WordPress 6.8 “Gene”</title>
-      <link>https://wordpress.org/news/2025/12/gene/</link>
-      <guid isPermaLink="false">https://wordpress.org/news/?p=19398</guid>
-      <pubDate>Wed, 03 Dec 2025 20:12:21 +0000</pubDate>
-      <description>&lt;p&gt;Rubbeldiekatz&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Tue, 02 Dec 2025 20:12:21 +0000</lastBuildDate>
     <item>
       <title>WordPress 6.9 “Gene”</title>
       <link>https://wordpress.org/news/2025/12/gene/</link>
-      <guid isPermaLink="false">https://wordpress.org/news/?p=19398</guid>
+      <guid isPermaLink="false">b3460c97-e703-4989-a488-21cf242b4a42</guid>
       <pubDate>Tue, 02 Dec 2025 20:12:21 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Major upgrades for team collaboration and content creation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Notes feature&lt;/strong&gt; Introduces block-level commenting to streamline reviewing and polishing content.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>WordPress 6.8 “Gene”</title>
+      <title>WordPress 6.9 “Gene”</title>
       <link>https://wordpress.org/news/2025/12/gene/</link>
-      <guid isPermaLink="false">https://wordpress.org/news/?p=19391</guid>
-      <pubDate>Tue, 02 Dec 2025 20:11:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Major upgrades for team collaboration and content creation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Notes feature:&lt;/strong&gt; Introduces block-level commenting to streamline reviewing and polishing content.&lt;/li&gt;&lt;/ul&gt;</description>
+      <guid isPermaLink="false">6a268555-048e-4039-896b-0dfb6de93fac</guid>
+      <pubDate>Tue, 02 Dec 2025 20:02:21 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Major upgrades for team collaboration and content creation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Notes feature&lt;/strong&gt; Introduces block-level commenting to streamline reviewing and polishing content.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

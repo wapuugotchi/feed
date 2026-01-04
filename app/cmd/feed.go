@@ -11,6 +11,8 @@ import (
 	"sort"
 	"strings"
 	"time"
+
+	"github.com/google/uuid"
 )
 
 const wordpressFeedURL = "https://wordpress.org/news/category/releases/feed/"
@@ -263,10 +265,7 @@ func parseTime(value string) (time.Time, error) {
 }
 
 func pickEntryID(item WordPressItem) string {
-	if strings.TrimSpace(item.GUID) != "" {
-		return strings.TrimSpace(item.GUID)
-	}
-	return fmt.Sprintf("wordpress-%d", time.Now().Unix())
+	return uuid.NewString()
 }
 
 func pickEntryTime(item WordPressItem) string {
@@ -315,7 +314,7 @@ func writeJSON(path string, value any) {
 
 	enc := json.NewEncoder(file)
 	enc.SetIndent("", "  ")
-    enc.SetEscapeHTML(false)
+	enc.SetEscapeHTML(false)
 	if err := enc.Encode(value); err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
