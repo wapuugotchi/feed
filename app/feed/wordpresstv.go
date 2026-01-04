@@ -2,6 +2,7 @@ package feed
 
 import (
 	"encoding/xml"
+	"fmt"
 	"regexp"
 	"strings"
 )
@@ -63,8 +64,8 @@ func extractFirstIframe(value string) string {
 }
 
 var (
-	iframeWidthPattern  = regexp.MustCompile(`(?i)\swidth\s*=\s*(['"]?)[^'"\s>]*\1`)
-	iframeHeightPattern = regexp.MustCompile(`(?i)\sheight\s*=\s*(['"]?)[^'"\s>]*\1`)
+	iframeWidthPattern  = regexp.MustCompile(`(?i)\swidth\s*=\s*(?:"[^"]*"|'[^']*'|[^'"\s>]+)`)
+	iframeHeightPattern = regexp.MustCompile(`(?i)\sheight\s*=\s*(?:"[^"]*"|'[^']*'|[^'"\s>]+)`)
 )
 
 func normalizeIframe(value string) string {
@@ -78,12 +79,18 @@ func normalizeIframe(value string) string {
 	openTag := value[:tagEnd]
 	rest := value[tagEnd:]
 
-	openTag = iframeWidthPattern.ReplaceAllString(openTag, "")
-	openTag = iframeHeightPattern.ReplaceAllString(openTag, "")
-	openTag = strings.TrimSpace(openTag)
 	if !strings.HasSuffix(openTag, "<iframe") && !strings.Contains(openTag, "<iframe") {
 		return value
 	}
-	openTag = openTag + ` width="100%" height="auto"`
+	openTag = setAttr(openTag, "width", "100%", iframeWidthPattern)
+	openTag = setAttr(openTag, "height", "auto", iframeHeightPattern)
 	return openTag + rest
+}
+
+func setAttr(openTag, name, value string, pattern *regexp.Regexp) string {
+	attr := fmt.Sprintf(` %s="%s"`, name, value)
+	if pattern.MatchString(openTag) {
+		return pattern.ReplaceAllString(openTag, attr)
+	}
+	return strings.TrimSpace(openTag) + attr
 }
