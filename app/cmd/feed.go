@@ -67,16 +67,11 @@ type Channel struct {
 }
 
 type Item struct {
+	ID          string `xml:"id"`
 	Title       string `xml:"title"`
 	Link        string `xml:"link"`
-	GUID        GUID   `xml:"guid"`
 	PubDate     string `xml:"pubDate"`
 	Description string `xml:"description"`
-}
-
-type GUID struct {
-	IsPermaLink string `xml:"isPermaLink,attr"`
-	Value       string `xml:",chardata"`
 }
 
 func RunFeedUpdate() error {
@@ -230,7 +225,7 @@ func buildFeed(site Site, entries []Entry, outputPath string) error {
 		channel.Items = append(channel.Items, Item{
 			Title:       entry.Title,
 			Link:        entry.Link,
-			GUID:        GUID{IsPermaLink: "false", Value: entry.ID},
+			ID:          entry.ID,
 			PubDate:     createdAt.UTC().Format(time.RFC1123Z),
 			Description: entry.Content,
 		})
