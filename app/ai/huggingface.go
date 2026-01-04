@@ -38,7 +38,7 @@ type chatResponse struct {
 }
 
 func TransformTextByHuggingFace(text string) (string, error) {
-    prompt := "Extract key highlights from the text below. Output RAW HTML only. Do NOT escape HTML characters. Do NOT output JSON. Use literal < > characters, not unicode (e.g. < not \u003c). Output must be a single line with no line breaks. Format EXACTLY: <p><strong>WordPress ###VERSION### is here!</strong></p><p>###Description###</p><ul><li><strong>###TITLE_HIGHLIGHT_1:###</strong> TEXT_HIGHLIGHT_1</li></ul> Description must be one short sentence (max 60 characters), high-level, and must not repeat the headline. Text:" + text
+    prompt := "Extract key highlights from the text below. Output RAW HTML only. Do NOT escape HTML characters. Do NOT output JSON. Use literal < > characters, not unicode (e.g. < not \u003c). Output must be a single line with no line breaks. Format EXACTLY: <p><strong>WordPress ###VERSION### is here!</strong></p><p>###Description###</p><ul><li><strong>###TITLE_HIGHLIGHT_1:###</strong> TEXT_HIGHLIGHT_1</li><li><strong>###TITLE_HIGHLIGHT_2:###</strong> TEXT_HIGHLIGHT_2</li><li><strong>###TITLE_HIGHLIGHT_n:###</strong> TEXT_HIGHLIGHT_n</li></ul> Description must be one short sentence (max 60 characters), high-level, and must not repeat the headline. Text:" + text
     raw, err := postChatCompletion(prompt)
 	if err != nil {
 		return "", err
