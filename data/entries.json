@@ -3,7 +3,7 @@
     "id": "1c8774ef61e2d9adf36fbaba94234bd8",
     "title": "WordPress 6.9 “Gene”",
     "link": "https://wordpress.org/news/2025/12/gene/",
-    "content": "<p><strong>WordPress 6.9 is here!</strong></p><p>Major upgrades for team collaboration and content creation.</p><ul><li><strong>Notes Feature:</strong> Introduces block-level commenting to streamline reviewing and polishing content.</li><li><strong>Command Palette:</strong> Faster navigation across the entire dashboard for power users.</li><li><strong>Abilities API:</strong> Provides a standardized way to open the door for AI-powered and automated workflows.</li></ul>",
+    "content": "<p><strong>WordPress 6.9 is here!</strong></p><p>Major upgrades for team collaboration and content creation.</p><ul><li><strong>Notes Feature:</strong> Introduces block-level commenting to streamline reviewing and polishing content.</li><li><strong>Command Palette:</strong> Navigation across the dashboard is now faster for power users.</li><li><strong>Abilities API:</strong> Provides a standardized way to open the door for AI-powered and automated workflows.</li></ul>",
     "created_at": "2025-12-02T20:12:21Z",
     "categories": [
       "General",
@@ -29,7 +29,7 @@
     "id": "24a6e868b5687a38fc13d069033ff020",
     "title": "Is WordPress Free? Yes and No — Here’s Why",
     "link": "https://wordpress.com/blog/2025/12/23/is-wordpress-free/",
-    "content": "There's a lot of confusion surrounding WordPress's pricing. Here's a breakdown of what's free, as well as the costs of running a fully functional website.",
+    "content": "<p><strong>Is WordPress Free? Yes and No — Here’s Why</strong></p><p>Hier ist ein kurzes Fazit in 2 Sätzen:\n\nWordPress selbst ist kostenlos und Open-Source, aber um eine Website online zu stellen, fallen Kosten wie für einen Domainnamen und Hosting an. Die Kosten für eine vollständige Website können je nach Anforderung und Anbieter variieren, aber mit WordPress.com können Sie eine Website mit allen notwendigen Funktionen für einen vorhersehbaren Monatspreis starten.</p>",
     "created_at": "2025-12-23T16:00:00Z",
     "categories": [
       "Tips and Tutorials",

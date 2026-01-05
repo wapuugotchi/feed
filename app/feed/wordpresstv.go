@@ -9,6 +9,15 @@ import (
 
 const wordpressTVFeedURL = "https://wordpress.tv/feed/"
 
+var (
+	iframePattern       = regexp.MustCompile(`(?is)<iframe\b[^>]*>.*?</iframe>`)
+	iframeWidthPattern  = regexp.MustCompile(`(?i)\swidth\s*=\s*(?:"[^"]*"|'[^']*'|[^'"\s>]+)`)
+	iframeHeightPattern = regexp.MustCompile(`(?i)\sheight\s*=\s*(?:"[^"]*"|'[^']*'|[^'"\s>]+)`)
+	iframeAllowPattern  = regexp.MustCompile(`(?i)\sallow\s*=\s*(?:"[^"]*"|'[^']*'|[^'"\s>]+)`)
+	anchorBlockPattern  = regexp.MustCompile(`(?is)<a\b[^>]*>.*?</a>`)
+	anchorTagPattern    = regexp.MustCompile(`(?is)</?a\b[^>]*>`)
+)
+
 type wordPressTVFeed struct {
 	Channel wordPressTVChannel `xml:"channel"`
 }
@@ -20,7 +29,6 @@ type wordPressTVChannel struct {
 type wordPressTVItem struct {
 	Title          string   `xml:"title"`
 	Link           string   `xml:"link"`
-	GUID           string   `xml:"guid"`
 	PubDate        string   `xml:"pubDate"`
 	Description    string   `xml:"description"`
 	ContentEncoded string   `xml:"encoded"`
@@ -42,19 +50,17 @@ func LatestWordPressTV(fetch func(url, source string) ([]byte, error)) (Item, er
 	}
 
 	item := feed.Channel.Items[0]
+	content := buildWordPressTVContent(item.ContentEncoded, item.Description)
 	return Item{
-		Title:       item.Title,
-		Link:        item.Link,
-		GUID:        item.GUID,
-		PubDate:     item.PubDate,
-		Description: pickContentEncoded(item.ContentEncoded, item.Description),
-		Categories:  item.Categories,
+		Title:      item.Title,
+		Link:       item.Link,
+		PubDate:    item.PubDate,
+		Content:    content,
+		Categories: item.Categories,
 	}, nil
 }
 
-var iframePattern = regexp.MustCompile(`(?is)<iframe\b[^>]*>.*?</iframe>`)
-
-func pickContentEncoded(encoded, description string) string {
+func buildWordPressTVContent(encoded, description string) string {
 	encoded = strings.TrimSpace(encoded)
 	if encoded == "" {
 		return stripAnchorTags(strings.TrimSpace(description))
@@ -63,13 +69,14 @@ func pickContentEncoded(encoded, description string) string {
 	return stripAnchorTags(normalized)
 }
 
-var (
-	iframeWidthPattern  = regexp.MustCompile(`(?i)\swidth\s*=\s*(?:"[^"]*"|'[^']*'|[^'"\s>]+)`)
-	iframeHeightPattern = regexp.MustCompile(`(?i)\sheight\s*=\s*(?:"[^"]*"|'[^']*'|[^'"\s>]+)`)
-	iframeAllowPattern  = regexp.MustCompile(`(?i)\sallow\s*=\s*(?:"[^"]*"|'[^']*'|[^'"\s>]+)`)
-	anchorBlockPattern  = regexp.MustCompile(`(?is)<a\b[^>]*>.*?</a>`)
-	anchorTagPattern    = regexp.MustCompile(`(?is)</?a\b[^>]*>`)
-)
+func normalizeFirstIframe(content string) string {
+	match := iframePattern.FindString(content)
+	if strings.TrimSpace(match) == "" {
+		return content
+	}
+	normalized := normalizeIframe(match)
+	return strings.Replace(content, match, normalized, 1)
+}
 
 func normalizeIframe(value string) string {
 	if value == "" {
@@ -82,7 +89,7 @@ func normalizeIframe(value string) string {
 	openTag := value[:tagEnd]
 	rest := value[tagEnd:]
 
-	if !strings.HasSuffix(openTag, "<iframe") && !strings.Contains(openTag, "<iframe") {
+	if !strings.Contains(openTag, "<iframe") {
 		return value
 	}
 	openTag = setAttr(openTag, "width", "100%", iframeWidthPattern)
@@ -97,15 +104,6 @@ func setAttr(openTag, name, value string, pattern *regexp.Regexp) string {
 		return pattern.ReplaceAllString(openTag, attr)
 	}
 	return strings.TrimSpace(openTag) + attr
-}
-
-func normalizeFirstIframe(content string) string {
-	match := iframePattern.FindString(content)
-	if strings.TrimSpace(match) == "" {
-		return content
-	}
-	normalized := normalizeIframe(match)
-	return strings.Replace(content, match, normalized, 1)
 }
 
 func stripAnchorTags(content string) string {

@@ -31,10 +31,6 @@ type Entry struct {
 	Categories []string `json:"categories,omitempty"`
 }
 
-type State struct {
-	Latest map[string]string `json:"latest,omitempty"`
-}
-
 type RSS struct {
 	XMLName xml.Name `xml:"rss"`
 	Version string   `xml:"version,attr"`
@@ -64,31 +60,18 @@ const (
 )
 
 func RunFeedUpdate() error {
-	root, err := os.Getwd()
+	paths, err := getPaths()
 	if err != nil {
 		return err
 	}
 
-	paths := feedPaths(root)
-	site := Site{Title: "Wapuugotchi RSS"}
-	state := State{}
-	entries := []Entry{}
-
-	readJSON(paths.site, &site)
-	readJSON(paths.state, &state)
-	readJSON(paths.entries, &entries)
-	if state.Latest == nil {
-		state.Latest = map[string]string{}
-	}
+	site := loadSite(paths.site)
+	entries := loadEntries(paths.entries)
 
 	updated := false
-	var firstErr error
-	for _, provider := range feedProviders() {
-		added, err := addLatestFromProvider(provider, &entries, &state)
+	for _, provider := range providers() {
+		added, err := addLatest(provider, &entries)
 		if err != nil {
-			if firstErr == nil {
-				firstErr = err
-			}
 			fmt.Fprintln(os.Stderr, err)
 			continue
 		}
@@ -96,18 +79,12 @@ func RunFeedUpdate() error {
 			updated = true
 		}
 	}
-
-	if !updated && firstErr != nil {
-		return firstErr
-	}
 	if !updated {
 		fmt.Println("no update detected")
 		return nil
 	}
 
-	writeJSON(paths.state, state)
-	writeJSON(paths.entries, entries)
-
+	saveEntries(paths.entries, entries)
 	if err := buildFeed(site, entries, paths.feed); err != nil {
 		return err
 	}
@@ -118,36 +95,53 @@ func RunFeedUpdate() error {
 
 type paths struct {
 	site    string
-	state   string
 	entries string
 	feed    string
 }
 
-func feedPaths(root string) paths {
+type feedProvider struct {
+	Name  string
+	Fetch func(fetch func(url, source string) ([]byte, error)) (feed.Item, error)
+}
+
+func providers() []feedProvider {
+	return []feedProvider{
+		{Name: "wordpress-releases", Fetch: feed.LatestReleases},
+		{Name: "wordpress-tv", Fetch: feed.LatestWordPressTV},
+		{Name: "wordpress-com", Fetch: feed.LatestWordPressComBlog},
+	}
+}
+
+func getPaths() (paths, error) {
+	root, err := os.Getwd()
+	if err != nil {
+		return paths{}, err
+	}
 	dataDir := filepath.Join(root, "data")
 	return paths{
 		site:    filepath.Join(dataDir, "site.json"),
-		state:   filepath.Join(dataDir, "state.json"),
 		entries: filepath.Join(dataDir, "entries.json"),
 		feed:    filepath.Join(root, "feed.xml"),
-	}
+	}, nil
 }
 
-type feedProvider struct {
-	Name      string
-	Translate bool
-	Fetch     func(fetch func(url, source string) ([]byte, error)) (feed.Item, error)
+func loadSite(path string) Site {
+	site := Site{Title: "Wapuugotchi RSS"}
+	readJSON(path, &site)
+	return site
 }
 
-func feedProviders() []feedProvider {
-	return []feedProvider{
-		{Name: "wordpress-releases", Translate: true, Fetch: feed.LatestReleases},
-		{Name: "wordpress-tv", Translate: false, Fetch: feed.LatestWordPressTV},
-		{Name: "wordpress-com", Translate: false, Fetch: feed.LatestWordPressComBlog},
-	}
+func loadEntries(path string) []Entry {
+	entries := []Entry{}
+	readJSON(path, &entries)
+	return entries
 }
 
-func addLatestFromProvider(provider feedProvider, entries *[]Entry, state *State) (bool, error) {
+func saveEntries(path string, entries []Entry) {
+	writeJSON(path, entries)
+}
+
+func addLatest(provider feedProvider, entries *[]Entry) (bool, error) {
 	item, err := provider.Fetch(fetchFeed)
 	if err != nil {
 		return false, err
@@ -159,36 +153,18 @@ func addLatestFromProvider(provider feedProvider, entries *[]Entry, state *State
 	item.Categories = cleanCategories(item.Categories)
 	id := pickEntryID(provider.Name, item)
 	if idExists(*entries, id) {
-		state.Latest[provider.Name] = id
 		return false, nil
 	}
 
-	text := translateContent(item.Description, provider.Translate)
 	*entries = append(*entries, Entry{
 		ID:         id,
 		Title:      item.Title,
 		Link:       item.Link,
-		Content:    text,
+		Content:    item.Content,
 		CreatedAt:  pickEntryTime(item),
 		Categories: item.Categories,
 	})
-
-	state.Latest[provider.Name] = id
 	return true, nil
-}
-
-func translateContent(text string, allow bool) string {
-	text = strings.TrimSpace(text)
-	if text == "" || !allow || strings.Contains(strings.ToLower(text), "<iframe") {
-		return text
-	}
-
-	translated, err := TransformTextByAi(text)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, "translation failed:", err)
-		return text
-	}
-	return translated
 }
 
 func fetchFeed(url, source string) ([]byte, error) {

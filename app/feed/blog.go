@@ -2,10 +2,14 @@ package feed
 
 import (
 	"encoding/xml"
+	"fmt"
 	"strings"
+
+	"wapuugotchi/feed/app/ai"
 )
 
 const wordpressComFeedURL = "https://wordpress.com/blog/feed/"
+const blogPattern = "Schreibe ein ganz kurzes Fazit in 1-2 Saetzen. Antworte ohne HTML oder Markdown. Text:\n\n%s"
 
 type wordPressComFeed struct {
 	Channel wordPressComChannel `xml:"channel"`
@@ -18,9 +22,7 @@ type wordPressComChannel struct {
 type wordPressComItem struct {
 	Title          string   `xml:"title"`
 	Link           string   `xml:"link"`
-	GUID           string   `xml:"guid"`
 	PubDate        string   `xml:"pubDate"`
-	Description    string   `xml:"description"`
 	ContentEncoded string   `xml:"encoded"`
 	Categories     []string `xml:"category"`
 }
@@ -40,20 +42,30 @@ func LatestWordPressComBlog(fetch func(url, source string) ([]byte, error)) (Ite
 	}
 
 	item := feed.Channel.Items[0]
+	content := buildBlogContent(item.Title, item.ContentEncoded)
 	return Item{
-		Title:       item.Title,
-		Link:        item.Link,
-		GUID:        item.GUID,
-		PubDate:     item.PubDate,
-		Description: item.Description,
-		Categories:  item.Categories,
+		Title:      item.Title,
+		Link:       item.Link,
+		PubDate:    item.PubDate,
+		Content:    content,
+		Categories: item.Categories,
 	}, nil
 }
 
-func pickEncodedOrDescription(encoded, description string) string {
-	encoded = strings.TrimSpace(encoded)
-	if encoded != "" {
-		return encoded
+func buildBlogContent(title, encoded string) string {
+	title = strings.TrimSpace(title)
+	body := strings.TrimSpace(encoded)
+	summary := ""
+	if body != "" {
+		if result, err := ai.TransformText(blogPattern, body); err == nil {
+			summary = strings.TrimSpace(result)
+		}
 	}
-	return strings.TrimSpace(description)
+	if title == "" && summary == "" {
+		return ""
+	}
+	if summary == "" {
+		return fmt.Sprintf("<p><strong>%s</strong></p>", title)
+	}
+	return fmt.Sprintf("<p><strong>%s</strong></p><p>%s</p>", title, summary)
 }

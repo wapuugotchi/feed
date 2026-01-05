@@ -1,4 +1,4 @@
-package huggingface
+package ai
 
 import (
 	"bytes"
@@ -7,8 +7,6 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"os"
-	"path/filepath"
 	"strings"
 	"time"
 )
@@ -37,9 +35,8 @@ type chatResponse struct {
 	} `json:"choices"`
 }
 
-func TransformTextByHuggingFace(text string) (string, error) {
-    prompt := "Extract key highlights from the text below. Output RAW HTML only. Do NOT escape HTML characters. Do NOT output JSON. Use literal < > characters, not unicode (e.g. < not \u003c). Output must be a single line with no line breaks. Format EXACTLY: <p><strong>WordPress ###VERSION### is here!</strong></p><p>###Description###</p><ul><li><strong>###TITLE_HIGHLIGHT_1:###</strong> TEXT_HIGHLIGHT_1</li><li><strong>###TITLE_HIGHLIGHT_2:###</strong> TEXT_HIGHLIGHT_2</li><li><strong>###TITLE_HIGHLIGHT_n:###</strong> TEXT_HIGHLIGHT_n</li></ul> Description must be one short sentence (max 60 characters), high-level, and must not repeat the headline. Text:" + text
-    raw, err := postChatCompletion(prompt)
+func transformWithHuggingFace(prompt string) (string, error) {
+	raw, err := postChatCompletion(prompt)
 	if err != nil {
 		return "", err
 	}
@@ -119,67 +116,4 @@ func loadHuggingFaceToken() (string, error) {
 	}
 
 	return "", fmt.Errorf("missing Hugging Face token: set HUGGINGFACE_TOKEN or HF_TOKEN")
-}
-
-func readEnv(keys ...string) string {
-	for _, key := range keys {
-		if val, ok := os.LookupEnv(key); ok && strings.TrimSpace(val) != "" {
-			return strings.TrimSpace(val)
-		}
-	}
-	return ""
-}
-
-func loadDotEnv() error {
-	root := findRepoRoot()
-	envPath := filepath.Join(root, ".env")
-
-	data, err := os.ReadFile(envPath)
-	if err != nil {
-		if os.IsNotExist(err) {
-			return nil
-		}
-		return err
-	}
-
-	for _, line := range strings.Split(string(data), "\n") {
-		line = strings.TrimSpace(line)
-		if line == "" || strings.HasPrefix(line, "#") {
-			continue
-		}
-		parts := strings.SplitN(line, "=", 2)
-		if len(parts) != 2 {
-			continue
-		}
-		key := strings.TrimSpace(parts[0])
-		val := strings.Trim(strings.TrimSpace(parts[1]), `"'`)
-		if key == "" || val == "" {
-			continue
-		}
-		if _, exists := os.LookupEnv(key); !exists {
-			if err := os.Setenv(key, val); err != nil {
-				return err
-			}
-		}
-	}
-
-	return nil
-}
-
-func findRepoRoot() string {
-	wd, err := os.Getwd()
-	if err != nil {
-		return "."
-	}
-	dir := wd
-	for {
-		if _, err := os.Stat(filepath.Join(dir, "go.mod")); err == nil {
-			return dir
-		}
-		parent := filepath.Dir(dir)
-		if parent == dir {
-			return wd
-		}
-		dir = parent
-	}
 }
