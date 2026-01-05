@@ -9,7 +9,7 @@ import (
 )
 
 const wordpressComFeedURL = "https://wordpress.com/blog/feed/"
-const blogPattern = "Schreibe ein ganz kurzes Fazit in 1-2 Saetzen. Antworte ohne HTML oder Markdown. Text:\n\n%s"
+const blogPattern = "Write a very brief summary in 1-2 sentences. Respond without HTML or Markdown. Text:\n\n%s"
 
 type wordPressComFeed struct {
 	Channel wordPressComChannel `xml:"channel"`
