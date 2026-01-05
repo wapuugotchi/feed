@@ -1,52 +1,14 @@
-package main
+package main // Paket "main": Einstiegspunkt für das ausführbare Programm (Binary), hier liegt die main()-Funktion.
 
-import (
-	"flag"
-	"fmt"
-	"io"
-	"os"
-	"strings"
-
-	"wapuugotchi/feed/app/cmd"
+import ( // Import-Block: Standardlib + internes cmd-Paket.
+	"fmt"    // Ausgabe auf Stdout/Stderr und formatierte Fehlerausgabe.
+	"os"     // Zugriff auf Args, Stdin/Stdout/Stderr, Exit-Codes.
+	"wapuugotchi/feed/app/cmd" // Internes cmd-Paket: enthält RunFeedUpdate() und AI-Wrapper für CLI.
 )
 
 func main() {
-	if len(os.Args) > 1 && os.Args[1] == "ai" {
-		runAi(os.Args[2:])
-		return
+	if err := cmd.RunFeedUpdate(); err != nil { // Standardpfad: Feed aktualisieren und feed.xml schreiben.
+		fmt.Fprintln(os.Stderr, err) // Fehler auf stderr ausgeben (CLI-Konvention).
+		os.Exit(1) // Exit-Code 1 für generischen Fehler.
 	}
-
-	if err := cmd.RunFeedUpdate(); err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		os.Exit(1)
-	}
-}
-
-func runAi(args []string) {
-	flags := flag.NewFlagSet("ai", flag.ExitOnError)
-	text := flags.String("text", "", "Text to translate")
-	_ = flags.Parse(args)
-
-	input := strings.TrimSpace(*text)
-	if input == "" {
-		data, err := io.ReadAll(os.Stdin)
-		if err != nil {
-			fmt.Fprintln(os.Stderr, err)
-			os.Exit(1)
-		}
-		input = strings.TrimSpace(string(data))
-	}
-
-	if input == "" {
-		fmt.Fprintln(os.Stderr, "missing --text or stdin input")
-		os.Exit(2)
-	}
-
-	translated, err := cmd.TransformTextByAi(input)
-	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
-		os.Exit(1)
-	}
-
-	fmt.Println(translated)
 }
