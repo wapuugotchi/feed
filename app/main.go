@@ -9,7 +9,13 @@ import ( // Import-Block: Standardlib + internes cmd-Paket.
 
 func main() {
 	verbose := flag.Bool("verbose", false, "Enable verbose output")
+	info := flag.Bool("info", false, "Show application info")
 	flag.Parse()
+
+	if *info {
+		cmd.RunInfo()
+		return
+	}
 
 	if err := cmd.RunFeedUpdate(*verbose); err != nil { // Standardpfad: Feed aktualisieren und feed.xml schreiben.
 		fmt.Fprintln(os.Stderr, err) // Fehler auf stderr ausgeben (CLI-Konvention).
