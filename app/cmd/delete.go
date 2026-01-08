@@ -39,6 +39,6 @@ func RunDeleteItem(itemNumber int) {
 		panic(err)
 	}
 
-	fmt.Printf("Item %s deleted successfully\n", titleToDelete)
+	fmt.Printf("Item '%s' deleted successfully\n", titleToDelete)
 
 }

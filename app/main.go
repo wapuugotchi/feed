@@ -9,14 +9,14 @@ import ( // Import-Block: Standardlib + internes cmd-Paket.
 
 func main() {
 	verbose := flag.Bool("verbose", false, "Enable verbose output")
-	info := flag.Bool("info", false, "Show application info")
-	delete := flag.Int("delete", -1, "Delete item number (use with -info to see numbers)")
+	list := flag.Bool("list", false, "Show list of feed items")
+	delete := flag.Int("delete", -1, "Delete item number (use with -list to see numbers)")
 
 
 	flag.Parse()
 
-	if *info {
-		cmd.RunInfo()
+	if *list {
+		cmd.RunListItems()
 		return
 	}
 

@@ -7,7 +7,7 @@ import (
 	"io"
 )
 
-func RunInfo()  {
+func RunListItems()  {
 	fmt.Printf("Wapuugotchi Feed Generator\n")
 	feedFile := "feed.xml"
 	file, err := os.Open(feedFile)
