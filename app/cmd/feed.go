@@ -66,7 +66,7 @@ const ( // Konstanten: zentrale HTTP Header-Defaults.
 	acceptHeader = "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7"                                           // Akzeptierte Response-Formate; hilft bei Content Negotiation.
 ) // Ende const.
 
-func RunFeedUpdate() error { // Hauptfunktion: lädt Daten, holt neue Items, schreibt files, baut feed.xml.
+func RunFeedUpdate(verbose bool) error { // Hauptfunktion: lädt Daten, holt neue Items, schreibt files, baut feed.xml.
 	paths, err := getPaths() // Ermittelt Pfade für site.json, entries.json, feed.xml relativ zum CWD.
 	if err != nil {          // Wenn getPaths scheitert (z.B. kein CWD), abbrechen.
 		return err // Fehler nach außen geben.
@@ -77,6 +77,9 @@ func RunFeedUpdate() error { // Hauptfunktion: lädt Daten, holt neue Items, sch
 
 	updated := false                       // Flag: ob neue Entries hinzugekommen sind.
 	for _, provider := range providers() { // Iteriert über alle Feed-Quellen (provider).
+		if verbose {
+			fmt.Printf("Processing feed: %s\n", provider.Name)
+		}
 		added, err := addLatest(provider, &entries) // Holt "latest item" pro Provider und fügt es ggf. hinzu.
 		if err != nil {                             // Wenn dieser Provider fehlschlägt…
 			fmt.Fprintln(os.Stderr, err) // …Fehler loggen, aber nicht den gesamten Run abbrechen.
