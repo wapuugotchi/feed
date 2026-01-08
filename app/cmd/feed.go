@@ -28,6 +28,7 @@ type Entry struct { // Persistierte Entry-Struktur (entries.json) für deinen Ag
 	Title      string   `json:"title"`                // Titel der Entry.
 	Link       string   `json:"link"`                 // URL zum Original.
 	Content    string   `json:"content"`              // Inhalt/Description im RSS.
+	Iframe     string   `json:"iframe,omitempty"`     // Optionales Embed; im RSS aktuell nicht genutzt.
 	CreatedAt  string   `json:"created_at"`           // ISO/RFC3339 Zeitstempel als String (leicht zu speichern).
 	Categories []string `json:"categories,omitempty"` // Optional: Kategorien/Tags; omitempty spart JSON wenn leer.
 } // Ende struct Entry.
@@ -52,6 +53,7 @@ type Item struct { // RSS Item: einzelne Nachricht/Eintrag.
 	Link        string   `xml:"link"`               // <link>
 	PubDate     string   `xml:"pubDate"`            // <pubDate> im RFC1123(Z) Format.
 	Description string   `xml:"description"`        // <description> (bei dir Content).
+	Iframe      string   `xml:"iframe,omitempty"`   // Optionales <iframe>-Feld (custom XML).
 	Categories  []string `xml:"category,omitempty"` // <category> mehrfach möglich; weglassen wenn leer.
 } // Ende struct Item.
 
@@ -266,6 +268,7 @@ func buildFeed(site Site, entries []Entry, outputPath string) error { // Baut fe
 			ID:          entry.ID,                              // ID (bei dir <id>).
 			PubDate:     createdAt.UTC().Format(time.RFC1123Z), // pubDate in RFC1123Z.
 			Description: entry.Content,                         // description = content.
+			Iframe:      strings.TrimSpace(entry.Iframe),       // Optionales iframe-Feld.
 			Categories:  entry.Categories,                      // Kategorien.
 		}) // Ende append.
 	} // Ende loop.
