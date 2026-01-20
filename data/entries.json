@@ -4,7 +4,7 @@
     "title": "Learn WordPress for Designers",
     "link": "https://learn.wordpress.org/course/beginner-wordpress-designer",
     "content": "<p><strong>Did you know… 🤓</strong></p><p>…Learn WordPress has a dedicated learning path especially for designers?</p><p>It gently guides you through blocks, patterns, and the Site Editor, helping you turn creative ideas into real WordPress websites step by step.</p>",
-    "iframe": "https://www.youtube.com/embed/FcTLMTyD2DU?feature=oembed",
+    "iframe": "https://www.youtube.com/embed/FcTLMTyD2DU?feature=oembed&autoplay=1&mute=1&playsinline=1",
     "created_at": "2025-12-01T20:12:21Z",
     "categories": [
       "LearnWordPress",
@@ -18,7 +18,7 @@
     "title": "WordPress and the future of AI",
     "link": "https://wordpress.org/news/2025/12/sotw-2025/",
     "content": "<p><strong>Did you know… 🤓</strong></p><p>…artificial intelligence is becoming a foundational topic within the WordPress project?</p><p>New APIs and standards are being developed to allow AI tools to interact with WordPress in a structured, predictable, and responsible way.</p>",
-    "iframe": "https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed",
+    "iframe": "https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&autoplay=1&mute=1&playsinline=1",
     "created_at": "2025-12-01T20:12:21Z",
     "categories": [
       "2025",
@@ -48,7 +48,7 @@
     "title": "WordPress powers the open web",
     "link": "https://wordpress.org/news/2025/12/sotw-2025/",
     "content": "<p><strong>Did you know… 🤓</strong></p><p>…WordPress now powers more than 43% of all websites worldwide, making it the most widely used content management system on the internet?</p><p>This scale is the result of nearly two decades of open-source development and a global community continuously improving the platform.</p>",
-    "iframe": "https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed",
+    "iframe": "https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&autoplay=1&mute=1&playsinline=1",
     "created_at": "2025-12-01T20:12:21Z",
     "categories": [
       "2025",
@@ -62,7 +62,7 @@
     "id": "1c8774ef61e2d9adf36fbaba94234bd8",
     "title": "WordPress 6.9 “Gene”",
     "link": "https://wordpress.org/news/2025/12/gene/",
-    "content": "<p><strong>WordPress 6.9 is here!</strong></p><p>Major upgrades for team collaboration and content creation.</p><ul><li><strong>Notes feature:</strong> Introduces block-level commenting to streamline reviewing and polishing content.</li><li><strong>Command Palette:</strong> Faster navigation across the entire dashboard for power users.</li><li><strong>Abilities API:</strong> Provides a standardized way to open the door for AI-powered and automated workflows.</li></ul>",
+    "content": "<p><strong>WordPress 6.9 is here!</strong></p><p>Major upgrades for team collaboration and content creation.</p><ul><li><strong>Notes feature:</strong> Introduces block-level commenting to streamline reviewing and polishing content.</li><li><strong>Command Palette:</strong> Navigation is now faster for power users.</li><li><strong>Abilities API:</strong> Provides a standardized way to open the door for AI-powered and automated workflows.</li></ul>",
     "created_at": "2025-12-02T20:12:21Z",
     "categories": [
       "General",

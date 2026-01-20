@@ -10,7 +10,7 @@
       <title>WordPress 6.9 “Gene”</title>
       <link>https://wordpress.org/news/2025/12/gene/</link>
       <pubDate>Tue, 02 Dec 2025 20:12:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Major upgrades for team collaboration and content creation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Notes feature:&lt;/strong&gt; Introduces block-level commenting to streamline reviewing and polishing content.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Command Palette:&lt;/strong&gt; Faster navigation across the entire dashboard for power users.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Abilities API:&lt;/strong&gt; Provides a standardized way to open the door for AI-powered and automated workflows.&lt;/li&gt;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Major upgrades for team collaboration and content creation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Notes feature:&lt;/strong&gt; Introduces block-level commenting to streamline reviewing and polishing content.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Command Palette:&lt;/strong&gt; Navigation is now faster for power users.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Abilities API:&lt;/strong&gt; Provides a standardized way to open the door for AI-powered and automated workflows.&lt;/li&gt;&lt;/ul&gt;</description>
       <category>General</category>
       <category>Releases</category>
       <category>6.9</category>
@@ -22,7 +22,7 @@
       <link>https://learn.wordpress.org/course/beginner-wordpress-designer</link>
       <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…Learn WordPress has a dedicated learning path especially for designers?&lt;/p&gt;&lt;p&gt;It gently guides you through blocks, patterns, and the Site Editor, helping you turn creative ideas into real WordPress websites step by step.&lt;/p&gt;</description>
-      <iframe>https://www.youtube.com/embed/FcTLMTyD2DU?feature=oembed</iframe>
+      <iframe>https://www.youtube.com/embed/FcTLMTyD2DU?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>LearnWordPress</category>
       <category>Design</category>
       <category>Course</category>
@@ -34,7 +34,7 @@
       <link>https://wordpress.org/news/2025/12/sotw-2025/</link>
       <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…artificial intelligence is becoming a foundational topic within the WordPress project?&lt;/p&gt;&lt;p&gt;New APIs and standards are being developed to allow AI tools to interact with WordPress in a structured, predictable, and responsible way.&lt;/p&gt;</description>
-      <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed</iframe>
+      <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2025</category>
       <category>StateOfTheWord</category>
       <category>AI</category>
@@ -60,7 +60,7 @@
       <link>https://wordpress.org/news/2025/12/sotw-2025/</link>
       <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…WordPress now powers more than 43% of all websites worldwide, making it the most widely used content management system on the internet?&lt;/p&gt;&lt;p&gt;This scale is the result of nearly two decades of open-source development and a global community continuously improving the platform.&lt;/p&gt;</description>
-      <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed</iframe>
+      <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2025</category>
       <category>StateOfTheWord</category>
       <category>WordPress</category>
