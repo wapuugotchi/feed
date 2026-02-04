@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title></title>
-    <link></link>
+    <title>Wapuugotchi RSS</title>
+    <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Tue, 02 Dec 2025 20:12:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 18:07:31 +0000</lastBuildDate>
+    <item>
+      <id>bf439ef884457ebe930242f0f131b981</id>
+      <title>WordPress 6.9.1 Maintenance Release</title>
+      <link>https://wordpress.org/news/2026/02/wordpress-6-9-1-maintenance-release/</link>
+      <pubDate>Tue, 03 Feb 2026 18:07:31 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9.1 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A minor release with bug fixes.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;49 bug fixes in Core and the Block Editor&lt;/strong&gt; Fixes for multiple areas of WordPress including the block editor, mail, and classic themes.&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>Releases</category>
+    </item>
     <item>
       <id>1c8774ef61e2d9adf36fbaba94234bd8</id>
       <title>WordPress 6.9 “Gene”</title>

@@ -70,5 +70,15 @@
       "6.9",
       "releases"
     ]
+  },
+  {
+    "id": "bf439ef884457ebe930242f0f131b981",
+    "title": "WordPress 6.9.1 Maintenance Release",
+    "link": "https://wordpress.org/news/2026/02/wordpress-6-9-1-maintenance-release/",
+    "content": "<p><strong>WordPress 6.9.1 is here!</strong></p><p>A minor release with bug fixes.</p><ul><li><strong>49 bug fixes in Core and the Block Editor</strong> Fixes for multiple areas of WordPress including the block editor, mail, and classic themes.</li></ul>",
+    "created_at": "2026-02-03T18:07:31Z",
+    "categories": [
+      "Releases"
+    ]
   }
 ]
