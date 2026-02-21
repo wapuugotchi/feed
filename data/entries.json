@@ -80,5 +80,21 @@
     "categories": [
       "Releases"
     ]
+  },
+  {
+    "id": "888541479f3e89fdc8d41d7df7e18d4e",
+    "title": "WordPress 7.0 Beta 1",
+    "link": "https://wordpress.org/news/2026/02/wordpress-7-0-beta-1/",
+    "content": "<p><strong>WordPress 7.0 Beta 1 is here!</strong></p><p>This beta release is intended for testing and development only.</p><ul><li><strong>Download and test the latest beta version</strong> Download and test the latest beta version</li><li><strong>Use a test environment or local site</strong> Use a test environment or local site to explore the new features</li><li><strong>Do not install on production or mission-critical websites</strong> Do not install, run, or test this version of WordPress on production or mission-critical websites</li></ul>",
+    "created_at": "2026-02-20T15:39:10Z",
+    "categories": [
+      "General",
+      "Releases",
+      "7-0",
+      "7.0",
+      "beta",
+      "development",
+      "release"
+    ]
   }
 ]
