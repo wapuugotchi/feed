@@ -4,7 +4,21 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Fri, 20 Feb 2026 15:39:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 16:32:56 +0000</lastBuildDate>
+    <item>
+      <id>c75249caa3f6a7fa9d52c4cf02b43c9b</id>
+      <title>WordPress 7.0 Beta 2</title>
+      <link>https://wordpress.org/news/2026/02/wordpress-7-0-beta-2/</link>
+      <pubDate>Thu, 26 Feb 2026 16:32:56 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 Beta 2 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Test the latest beta version of WordPress on a test server and site.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Latest Beta Version:&lt;/strong&gt; WordPress 7.0 Beta 2 is now ready for testing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Development Status:&lt;/strong&gt; This beta version of the WordPress software is under development.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Testing Warning:&lt;/strong&gt; Please do not install, run, or test this version of WordPress on production or mission-critical websites.&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>General</category>
+      <category>Releases</category>
+      <category>7-0</category>
+      <category>7.0</category>
+      <category>beta</category>
+      <category>Beta 2</category>
+      <category>release</category>
+    </item>
     <item>
       <id>888541479f3e89fdc8d41d7df7e18d4e</id>
       <title>WordPress 7.0 Beta 1</title>
