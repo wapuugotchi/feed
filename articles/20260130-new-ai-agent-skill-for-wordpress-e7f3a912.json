@@ -1,0 +1,17 @@
+{
+  "id": "e7f3a9124c6e4a90b5d2f8c1a3e97b44",
+  "title": "New AI Agent Skill for WordPress",
+  "link": "https://wordpress.org/news/2026/01/new-ai-agent-skill/",
+  "content": "<p><strong>Did you know… 🤓</strong></p><p>…there is a new WordPress AI agent skill called <strong>wp-playground</strong> to speed up testing for plugins and themes?</p><p>It runs WordPress through the Playground CLI, detects whether your code belongs in <code>wp-content/plugins</code> or <code>wp-content/themes</code>, and helps agents validate changes in a fast feedback loop.</p><p>Early testing showed startup time dropping from about a minute to a few seconds with helper scripts, making iteration much faster.</p>",
+  "created_at": "2026-01-30T12:00:00Z",
+  "categories": [
+    "2026",
+    "AI",
+    "Development",
+    "DidYouKnow",
+    "Playground",
+    "WordPress",
+    "article",
+    "did-you-know"
+  ]
+}

@@ -20,6 +20,21 @@
       <category>release</category>
     </item>
     <item>
+      <id>e7f3a9124c6e4a90b5d2f8c1a3e97b44</id>
+      <title>New AI Agent Skill for WordPress</title>
+      <link>https://wordpress.org/news/2026/01/new-ai-agent-skill/</link>
+      <pubDate>Fri, 30 Jan 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…there is a new WordPress AI agent skill called &lt;strong&gt;wp-playground&lt;/strong&gt; to speed up testing for plugins and themes?&lt;/p&gt;&lt;p&gt;It runs WordPress through the Playground CLI, detects whether your code belongs in &lt;code&gt;wp-content/plugins&lt;/code&gt; or &lt;code&gt;wp-content/themes&lt;/code&gt;, and helps agents validate changes in a fast feedback loop.&lt;/p&gt;&lt;p&gt;Early testing showed startup time dropping from about a minute to a few seconds with helper scripts, making iteration much faster.&lt;/p&gt;</description>
+      <category>2026</category>
+      <category>AI</category>
+      <category>Development</category>
+      <category>DidYouKnow</category>
+      <category>Playground</category>
+      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
       <id>d4b2c8a1f0e34a6b9d7c1e2f3a4b5c6d</id>
       <title>Learn WordPress for Designers</title>
       <link>https://learn.wordpress.org/course/beginner-wordpress-designer</link>
