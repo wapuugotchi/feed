@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Wapuugotchi RSS</title>
-    <link>https://wapuugotchi.github.io/feed/</link>
+    <title></title>
+    <link></link>
     <description></description>
     <lastBuildDate>Thu, 26 Feb 2026 16:32:56 +0000</lastBuildDate>
     <item>
@@ -20,49 +20,18 @@
       <category>release</category>
     </item>
     <item>
-      <id>888541479f3e89fdc8d41d7df7e18d4e</id>
-      <title>WordPress 7.0 Beta 1</title>
-      <link>https://wordpress.org/news/2026/02/wordpress-7-0-beta-1/</link>
-      <pubDate>Fri, 20 Feb 2026 15:39:10 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 Beta 1 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This beta release is intended for testing and development only.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Download and test the latest beta version&lt;/strong&gt; Download and test the latest beta version&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Use a test environment or local site&lt;/strong&gt; Use a test environment or local site to explore the new features&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Do not install on production or mission-critical websites&lt;/strong&gt; Do not install, run, or test this version of WordPress on production or mission-critical websites&lt;/li&gt;&lt;/ul&gt;</description>
-      <category>General</category>
-      <category>Releases</category>
-      <category>7-0</category>
-      <category>7.0</category>
-      <category>beta</category>
-      <category>development</category>
-      <category>release</category>
-    </item>
-    <item>
-      <id>bf439ef884457ebe930242f0f131b981</id>
-      <title>WordPress 6.9.1 Maintenance Release</title>
-      <link>https://wordpress.org/news/2026/02/wordpress-6-9-1-maintenance-release/</link>
-      <pubDate>Tue, 03 Feb 2026 18:07:31 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9.1 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A minor release with bug fixes.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;49 bug fixes in Core and the Block Editor&lt;/strong&gt; Fixes for multiple areas of WordPress including the block editor, mail, and classic themes.&lt;/li&gt;&lt;/ul&gt;</description>
-      <category>Releases</category>
-    </item>
-    <item>
-      <id>1c8774ef61e2d9adf36fbaba94234bd8</id>
-      <title>WordPress 6.9 “Gene”</title>
-      <link>https://wordpress.org/news/2025/12/gene/</link>
-      <pubDate>Tue, 02 Dec 2025 20:12:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Major upgrades for team collaboration and content creation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Notes feature:&lt;/strong&gt; Introduces block-level commenting to streamline reviewing and polishing content.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Command Palette:&lt;/strong&gt; Navigation is now faster for power users.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Abilities API:&lt;/strong&gt; Provides a standardized way to open the door for AI-powered and automated workflows.&lt;/li&gt;&lt;/ul&gt;</description>
-      <category>General</category>
-      <category>Releases</category>
-      <category>6.9</category>
-      <category>releases</category>
-    </item>
-    <item>
       <id>d4b2c8a1f0e34a6b9d7c1e2f3a4b5c6d</id>
       <title>Learn WordPress for Designers</title>
       <link>https://learn.wordpress.org/course/beginner-wordpress-designer</link>
       <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
       <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…Learn WordPress has a dedicated learning path especially for designers?&lt;/p&gt;&lt;p&gt;It gently guides you through blocks, patterns, and the Site Editor, helping you turn creative ideas into real WordPress websites step by step.&lt;/p&gt;</description>
       <iframe>https://www.youtube.com/embed/FcTLMTyD2DU?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
-      <category>LearnWordPress</category>
-      <category>Design</category>
       <category>Course</category>
+      <category>Design</category>
       <category>DidYouKnow</category>
+      <category>LearnWordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
     </item>
     <item>
       <id>b6e4c91a0f8d4c2a9a71d55e3e29ac77</id>
@@ -72,10 +41,12 @@
       <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…artificial intelligence is becoming a foundational topic within the WordPress project?&lt;/p&gt;&lt;p&gt;New APIs and standards are being developed to allow AI tools to interact with WordPress in a structured, predictable, and responsible way.&lt;/p&gt;</description>
       <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2025</category>
-      <category>StateOfTheWord</category>
       <category>AI</category>
-      <category>Future</category>
       <category>DidYouKnow</category>
+      <category>Future</category>
+      <category>StateOfTheWord</category>
+      <category>article</category>
+      <category>did-you-know</category>
     </item>
     <item>
       <id>5af11cb112f1516b765ef160331e2f99</id>
@@ -85,10 +56,12 @@
       <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/&lt;p&gt;&lt;p&gt;…there are large WordPress events around the world where enthusiasts meet and learn from each other?&lt;/p&gt;&lt;p&gt;Conferences like &lt;strong&gt;WordCamp Europe&lt;/strong&gt;, &lt;strong&gt;WordCamp US&lt;/strong&gt;, and &lt;strong&gt;WordCamp Asia&lt;/strong&gt; bring the global WordPress community together in person.&lt;/p&gt;&lt;p&gt;These events feature talks, workshops, and networking opportunities for everyone from beginners to seasoned developers.&lt;/p&gt;</description>
       <iframe>https://video.wordpress.com/embed/zVmqygRk?hd=1&amp;autoPlay=0&amp;permalink=1&amp;loop=0&amp;preloadContent=metadata&amp;muted=0&amp;playsinline=0&amp;controls=1&amp;cover=1</iframe>
       <category>2025</category>
-      <category>WordCampTV</category>
-      <category>WordCampEurope</category>
-      <category>Event</category>
       <category>DidYouKnow</category>
+      <category>Event</category>
+      <category>WordCampEurope</category>
+      <category>WordCampTV</category>
+      <category>article</category>
+      <category>did-you-know</category>
     </item>
     <item>
       <id>9c2d41f1b2e84c8a9c1d3a4e6f781001</id>
@@ -98,10 +71,12 @@
       <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…WordPress now powers more than 43% of all websites worldwide, making it the most widely used content management system on the internet?&lt;/p&gt;&lt;p&gt;This scale is the result of nearly two decades of open-source development and a global community continuously improving the platform.&lt;/p&gt;</description>
       <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2025</category>
+      <category>DidYouKnow</category>
+      <category>OpenWeb</category>
       <category>StateOfTheWord</category>
       <category>WordPress</category>
-      <category>OpenWeb</category>
-      <category>DidYouKnow</category>
+      <category>article</category>
+      <category>did-you-know</category>
     </item>
   </channel>
 </rss>

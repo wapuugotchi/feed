@@ -25,6 +25,7 @@ type Site struct { // Konfiguration/Metadaten deines eigenen RSS-Feeds.
 
 type Entry struct { // Persistierte Entry-Struktur (entries.json) für deinen Aggregator.
 	ID         string   `json:"id"`                   // Eindeutige ID; benutzt zur Deduplizierung.
+	Source     string   `json:"source,omitempty"`     // Quelle des Eintrags (z.B. wordpress-releases oder article).
 	Title      string   `json:"title"`                // Titel der Entry.
 	Link       string   `json:"link"`                 // URL zum Original.
 	Content    string   `json:"content"`              // Inhalt/Description im RSS.
@@ -58,14 +59,17 @@ type Item struct { // RSS Item: einzelne Nachricht/Eintrag.
 } // Ende struct Item.
 
 type Paths struct { // Kleine Struktur: bündelt zusammengehörige Dateipfade.
-	site    string // Pfad zu site.json.
-	entries string // Pfad zu entries.json.
-	feed    string // Pfad zur Ausgabe feed.xml.
+	site     string // Pfad zu site.json.
+	entries  string // Pfad zu entries.json.
+	articles string // Pfad zu Artikeldateien (manuelle Inhalte).
+	feed     string // Pfad zur Ausgabe feed.xml.
 } // Ende struct paths.
 
 const ( // Konstanten: zentrale HTTP Header-Defaults.
-	userAgent    = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" // Tarnung/Kompatibilität; manche Server blocken Default-Go-Agent.
-	acceptHeader = "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7"                                           // Akzeptierte Response-Formate; hilft bei Content Negotiation.
+	userAgent        = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" // Tarnung/Kompatibilität; manche Server blocken Default-Go-Agent.
+	acceptHeader     = "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7"                                           // Akzeptierte Response-Formate; hilft bei Content Negotiation.
+	releasesProvider = "wordpress-releases"
+	articlesSource   = "article"
 ) // Ende const.
 
 func RunFeedUpdate() error { // Hauptfunktion: lädt Daten, holt neue Items, schreibt files, baut feed.xml.
@@ -88,18 +92,22 @@ func RunFeedUpdate() error { // Hauptfunktion: lädt Daten, holt neue Items, sch
 			updated = true // …merken, dass wir speichern + XML rebuilden müssen.
 		} // Ende added-check.
 	} // Ende provider-loop.
-	if !updated { // Wenn nichts neu dazu kam…
-		fmt.Println("no update detected") // …informative Ausgabe.
-		return nil                        // …und sauber beenden ohne Dateien zu überschreiben.
-	} // Ende no-update.
+	if updated {
+		saveEntries(paths.entries, entries) // Persistiert aktualisierte entries.json.
+		fmt.Println("provider update detected")
+	} else {
+		fmt.Println("no provider update detected")
+	}
 
-	saveEntries(paths.entries, entries)                          // Persistiert aktualisierte entries.json.
-	if err := buildFeed(site, entries, paths.feed); err != nil { // Baut feed.xml neu (RSS).
+	manualArticles := loadArticleEntries(paths.articles)
+	allEntries := mergeEntries(entries, manualArticles)
+
+	if err := buildFeed(site, allEntries, paths.feed); err != nil { // Baut feed.xml neu (RSS).
 		return err // Fehler beim Schreiben/Encoding nach außen geben.
 	} // Ende buildFeed error-check.
 
-	fmt.Println("update detected") // Ausgabe: es gab Änderungen.
-	return nil                     // Erfolg.
+	fmt.Println("feed rebuilt") // Ausgabe: Feed wurde neu erstellt.
+	return nil                  // Erfolg.
 } // Ende RunFeedUpdate.
 
 type feedProvider struct { // Abstraktion einer Quelle: Name + Fetch-Funktion.
@@ -109,9 +117,9 @@ type feedProvider struct { // Abstraktion einer Quelle: Name + Fetch-Funktion.
 
 func providers() []feedProvider { // Liefert die Liste der Quellen, die abgefragt werden sollen.
 	return []feedProvider{ // Slice-Literal: Reihenfolge ist die Abfrage-Reihenfolge.
-		{Name: "wordpress-releases", Fetch: feed.LatestReleases},    // Quelle 1: WordPress Releases.
-// 		{Name: "wordpress-tv", Fetch: feed.LatestWordPressTV},       // Quelle 2: WordPress TV.
-// 		{Name: "wordpress-com", Fetch: feed.LatestWordPressComBlog}, // Quelle 3: WordPress.com Blog.
+		{Name: releasesProvider, Fetch: feed.LatestReleases}, // Quelle 1: WordPress Releases.
+		// 		{Name: "wordpress-tv", Fetch: feed.LatestWordPressTV},       // Quelle 2: WordPress TV.
+		// 		{Name: "wordpress-com", Fetch: feed.LatestWordPressComBlog}, // Quelle 3: WordPress.com Blog.
 	} // Ende Slice.
 } // Ende providers.
 
@@ -122,9 +130,10 @@ func getPaths() (Paths, error) { // Ermittelt, wo Dateien liegen sollen (relativ
 	} // Ende error-check.
 	dataDir := filepath.Join(root, "data") // Baut data/ Pfad OS-sicher zusammen.
 	return Paths{                          // Gibt alle Pfade zurück.
-		site:    filepath.Join(dataDir, "site.json"),    // data/site.json
-		entries: filepath.Join(dataDir, "entries.json"), // data/entries.json
-		feed:    filepath.Join(root, "feed.xml"),        // feed.xml im Projektroot.
+		site:     filepath.Join(dataDir, "site.json"),    // data/site.json
+		entries:  filepath.Join(dataDir, "entries.json"), // data/entries.json
+		articles: filepath.Join(root, "articles"),        // articles/ (manuell gepflegte Beiträge)
+		feed:     filepath.Join(root, "feed.xml"),        // feed.xml im Projektroot.
 	}, nil // Kein Fehler.
 } // Ende getPaths.
 
@@ -172,20 +181,118 @@ func addLatest(provider feedProvider, entries *[]Entry) (bool, error) { // Holt 
 
 	item.Categories = cleanCategories(item.Categories) // Kategorien trimmen + leere entfernen.
 	id := pickEntryID(provider.Name, item)             // Stabile ID aus Provider + PubDate/Link generieren.
-	if idExists(*entries, id) {                        // Prüfen, ob diese ID schon vorhanden ist.
+	newEntry := Entry{
+		ID:         id,
+		Source:     provider.Name,
+		Title:      item.Title,
+		Link:       item.Link,
+		Content:    item.Content,
+		CreatedAt:  pickEntryTime(item),
+		Categories: item.Categories,
+	}
+
+	if provider.Name == releasesProvider {
+		return replaceWithLatestRelease(entries, newEntry), nil
+	}
+
+	if idExists(*entries, id) { // Prüfen, ob diese ID schon vorhanden ist.
 		return false, nil // Wenn ja: kein Update.
 	} // Ende exists-check.
 
-	*entries = append(*entries, Entry{ // Neuen Entry an den Slice anhängen (über Pointer mutieren).
-		ID:         id,                  // Setzt ID.
-		Title:      item.Title,          // Titel übernehmen.
-		Link:       item.Link,           // Link übernehmen.
-		Content:    item.Content,        // Content übernehmen.
-		CreatedAt:  pickEntryTime(item), // Zeitpunkt normalisieren/parsen; fallback: now.
-		Categories: item.Categories,     // Kategorien übernehmen (bereinigt).
-	}) // Ende append.
-	return true, nil // Es wurde etwas hinzugefügt.
+	*entries = append(*entries, newEntry) // Neuen Entry an den Slice anhängen (über Pointer mutieren).
+	return true, nil                      // Es wurde etwas hinzugefügt.
 } // Ende addLatest.
+
+func replaceWithLatestRelease(entries *[]Entry, latest Entry) bool {
+	if len(*entries) == 1 && isReleaseEntry((*entries)[0]) && (*entries)[0].ID == latest.ID {
+		return false
+	}
+	*entries = []Entry{latest}
+	return true
+}
+
+func isReleaseEntry(entry Entry) bool {
+	if strings.TrimSpace(entry.Source) == releasesProvider {
+		return true
+	}
+	for _, category := range entry.Categories {
+		switch strings.ToLower(strings.TrimSpace(category)) {
+		case "release", "releases":
+			return true
+		}
+	}
+	return false
+}
+
+func mergeEntries(base, extra []Entry) []Entry {
+	if len(extra) == 0 {
+		return base
+	}
+	merged := append([]Entry{}, base...)
+	knownIDs := make(map[string]struct{}, len(merged))
+	for _, entry := range merged {
+		knownIDs[entry.ID] = struct{}{}
+	}
+	for _, entry := range extra {
+		if strings.TrimSpace(entry.Title) == "" {
+			continue
+		}
+		if strings.TrimSpace(entry.CreatedAt) == "" {
+			continue
+		}
+		if _, exists := knownIDs[entry.ID]; exists {
+			continue
+		}
+		knownIDs[entry.ID] = struct{}{}
+		merged = append(merged, entry)
+	}
+	return merged
+}
+
+func loadArticleEntries(dir string) []Entry {
+	list, err := os.ReadDir(dir)
+	if err != nil {
+		return nil
+	}
+	entries := make([]Entry, 0, len(list))
+	for _, file := range list {
+		if file.IsDir() || !strings.HasSuffix(strings.ToLower(file.Name()), ".json") {
+			continue
+		}
+
+		path := filepath.Join(dir, file.Name())
+		data, err := os.ReadFile(path)
+		if err != nil {
+			continue
+		}
+
+		var entry Entry
+		if err := json.Unmarshal(data, &entry); err != nil {
+			continue
+		}
+
+		entry.Title = strings.TrimSpace(entry.Title)
+		entry.Link = strings.TrimSpace(entry.Link)
+		entry.Content = strings.TrimSpace(entry.Content)
+		entry.Iframe = strings.TrimSpace(entry.Iframe)
+		entry.CreatedAt = strings.TrimSpace(entry.CreatedAt)
+		entry.Categories = cleanCategories(entry.Categories)
+		entry.Source = articlesSource
+
+		if entry.Title == "" || entry.CreatedAt == "" {
+			continue
+		}
+		if _, err := parseTime(entry.CreatedAt); err != nil {
+			continue
+		}
+		if strings.TrimSpace(entry.ID) == "" {
+			entry.ID = hashString("article|" + file.Name() + "|" + entry.Link + "|" + entry.CreatedAt)
+		}
+
+		entries = append(entries, entry)
+	}
+	return entries
+}
 
 func fetchFeed(url, source string) ([]byte, error) { // HTTP Fetch helper mit Retry auf 429.
 	client := &http.Client{Timeout: 15 * time.Second} // Client mit Timeout; schützt vor Hängern.
