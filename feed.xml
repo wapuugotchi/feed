@@ -4,19 +4,18 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Thu, 26 Feb 2026 16:32:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 14:47:00 +0000</lastBuildDate>
     <item>
-      <id>c75249caa3f6a7fa9d52c4cf02b43c9b</id>
-      <title>WordPress 7.0 Beta 2</title>
-      <link>https://wordpress.org/news/2026/02/wordpress-7-0-beta-2/</link>
-      <pubDate>Thu, 26 Feb 2026 16:32:56 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 Beta 2 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Test the latest beta version of WordPress on a test server and site.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Latest Beta Version:&lt;/strong&gt; WordPress 7.0 Beta 2 is now ready for testing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Development Status:&lt;/strong&gt; This beta version of the WordPress software is under development.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Testing Warning:&lt;/strong&gt; Please do not install, run, or test this version of WordPress on production or mission-critical websites.&lt;/li&gt;&lt;/ul&gt;</description>
-      <category>General</category>
+      <id>b422174a9208bd21179c1c69873705e8</id>
+      <title>WordPress 7.0 Beta 3</title>
+      <link>https://wordpress.org/news/2026/03/wordpress-7-0-beta-3/</link>
+      <pubDate>Thu, 05 Mar 2026 14:47:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 Beta 3 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Test the latest beta version on a test server and site.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Latest Beta Version:&lt;/strong&gt; Available for download and testing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Development Status:&lt;/strong&gt; Still under development.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Production Warning:&lt;/strong&gt; Do not install on production or mission-critical websites.&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>Development</category>
       <category>Releases</category>
       <category>7-0</category>
-      <category>7.0</category>
       <category>beta</category>
-      <category>Beta 2</category>
+      <category>development</category>
       <category>release</category>
     </item>
     <item>
