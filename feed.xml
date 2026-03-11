@@ -4,19 +4,16 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Thu, 05 Mar 2026 14:47:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 23:41:33 +0000</lastBuildDate>
     <item>
-      <id>b422174a9208bd21179c1c69873705e8</id>
-      <title>WordPress 7.0 Beta 3</title>
-      <link>https://wordpress.org/news/2026/03/wordpress-7-0-beta-3/</link>
-      <pubDate>Thu, 05 Mar 2026 14:47:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 Beta 3 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Test the latest beta version on a test server and site.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Latest Beta Version:&lt;/strong&gt; Available for download and testing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Development Status:&lt;/strong&gt; Still under development.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Production Warning:&lt;/strong&gt; Do not install on production or mission-critical websites.&lt;/li&gt;&lt;/ul&gt;</description>
-      <category>Development</category>
+      <id>73a1d0d6b58aced84eca42d75e90f0db</id>
+      <title>WordPress 6.9.3 and 7.0 beta 4</title>
+      <link>https://wordpress.org/news/2026/03/wordpress-6-9-3-and-7-0-beta-4/</link>
+      <pubDate>Tue, 10 Mar 2026 23:41:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9.2 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A security-focused update addressing 10 issues.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Security Update:&lt;/strong&gt; Addresses 10 security issues.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Theme Issue:&lt;/strong&gt; Some themes may cause a blank front end after update.&lt;/li&gt;&lt;/ul&gt;</description>
       <category>Releases</category>
-      <category>7-0</category>
-      <category>beta</category>
-      <category>development</category>
-      <category>release</category>
+      <category>minor-releases</category>
+      <category>releases</category>
     </item>
     <item>
       <id>e7f3a9124c6e4a90b5d2f8c1a3e97b44</id>

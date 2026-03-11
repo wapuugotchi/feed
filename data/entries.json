@@ -1,18 +1,15 @@
 [
   {
-    "id": "b422174a9208bd21179c1c69873705e8",
+    "id": "73a1d0d6b58aced84eca42d75e90f0db",
     "source": "wordpress-releases",
-    "title": "WordPress 7.0 Beta 3",
-    "link": "https://wordpress.org/news/2026/03/wordpress-7-0-beta-3/",
-    "content": "<p><strong>WordPress 7.0 Beta 3 is here!</strong></p><p>Test the latest beta version on a test server and site.</p><ul><li><strong>Latest Beta Version:</strong> Available for download and testing.</li><li><strong>Development Status:</strong> Still under development.</li><li><strong>Production Warning:</strong> Do not install on production or mission-critical websites.</li></ul>",
-    "created_at": "2026-03-05T14:47:00Z",
+    "title": "WordPress 6.9.3 and 7.0 beta 4",
+    "link": "https://wordpress.org/news/2026/03/wordpress-6-9-3-and-7-0-beta-4/",
+    "content": "<p><strong>WordPress 6.9.2 is here!</strong></p><p>A security-focused update addressing 10 issues.</p><ul><li><strong>Security Update:</strong> Addresses 10 security issues.</li><li><strong>Theme Issue:</strong> Some themes may cause a blank front end after update.</li></ul>",
+    "created_at": "2026-03-10T23:41:33Z",
     "categories": [
-      "Development",
       "Releases",
-      "7-0",
-      "beta",
-      "development",
-      "release"
+      "minor-releases",
+      "releases"
     ]
   }
 ]
