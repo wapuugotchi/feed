@@ -4,13 +4,13 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Tue, 10 Mar 2026 23:41:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Mar 2026 15:34:58 +0000</lastBuildDate>
     <item>
-      <id>73a1d0d6b58aced84eca42d75e90f0db</id>
-      <title>WordPress 6.9.3 and 7.0 beta 4</title>
-      <link>https://wordpress.org/news/2026/03/wordpress-6-9-3-and-7-0-beta-4/</link>
-      <pubDate>Tue, 10 Mar 2026 23:41:33 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9.2 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A security-focused update addressing 10 issues.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Security Update:&lt;/strong&gt; Addresses 10 security issues.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Theme Issue:&lt;/strong&gt; Some themes may cause a blank front end after update.&lt;/li&gt;&lt;/ul&gt;</description>
+      <id>b865ac77572a906d94c26a46b3ca9bb4</id>
+      <title>WordPress 6.9.4 Release</title>
+      <link>https://wordpress.org/news/2026/03/wordpress-6-9-4-release/</link>
+      <pubDate>Wed, 11 Mar 2026 15:34:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 6.9.4 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;WordPress 6.9.4 addresses remaining security issues and a bug.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Security Issues:&lt;/strong&gt; 10 security issues addressed&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Template File Bug:&lt;/strong&gt; Bug fixed that affected template file loading on a limited number of sites&lt;/li&gt;&lt;/ul&gt;</description>
       <category>Releases</category>
       <category>minor-releases</category>
       <category>releases</category>

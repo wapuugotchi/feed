@@ -1,11 +1,11 @@
 [
   {
-    "id": "73a1d0d6b58aced84eca42d75e90f0db",
+    "id": "b865ac77572a906d94c26a46b3ca9bb4",
     "source": "wordpress-releases",
-    "title": "WordPress 6.9.3 and 7.0 beta 4",
-    "link": "https://wordpress.org/news/2026/03/wordpress-6-9-3-and-7-0-beta-4/",
-    "content": "<p><strong>WordPress 6.9.2 is here!</strong></p><p>A security-focused update addressing 10 issues.</p><ul><li><strong>Security Update:</strong> Addresses 10 security issues.</li><li><strong>Theme Issue:</strong> Some themes may cause a blank front end after update.</li></ul>",
-    "created_at": "2026-03-10T23:41:33Z",
+    "title": "WordPress 6.9.4 Release",
+    "link": "https://wordpress.org/news/2026/03/wordpress-6-9-4-release/",
+    "content": "<p><strong>WordPress 6.9.4 is here!</strong></p><p>WordPress 6.9.4 addresses remaining security issues and a bug.</p><ul><li><strong>Security Issues:</strong> 10 security issues addressed</li><li><strong>Template File Bug:</strong> Bug fixed that affected template file loading on a limited number of sites</li></ul>",
+    "created_at": "2026-03-11T15:34:58Z",
     "categories": [
       "Releases",
       "minor-releases",
