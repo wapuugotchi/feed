@@ -4,7 +4,20 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Thu, 12 Mar 2026 15:49:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <id>a1f7b3c94e2d6a80f5c3b9e1d4a72f83</id>
+      <title>my.WordPress.net – WordPress in Your Browser</title>
+      <link>https://wordpress.org/news/2026/03/announcing-my-wordpress/</link>
+      <pubDate>Fri, 13 Mar 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…there is now &lt;strong&gt;my.WordPress.net&lt;/strong&gt; – a full WordPress that runs entirely in your browser?&lt;/p&gt;&lt;p&gt;No sign-up, no hosting, no domain. Just open it and start. Built on WordPress Playground, all data stays local – nothing is uploaded, nothing is publicly accessible.&lt;/p&gt;&lt;p&gt;It comes with ready-made apps like a &lt;strong&gt;Personal CRM&lt;/strong&gt;, a private &lt;strong&gt;RSS Reader&lt;/strong&gt;, and an &lt;strong&gt;AI Workspace&lt;/strong&gt; that can even create custom plugins.&lt;/p&gt;</description>
+      <category>2026</category>
+      <category>DidYouKnow</category>
+      <category>Playground</category>
+      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
     <item>
       <id>b5ba24209bdd8ccd7c942fd3f4405fd9</id>
       <title>WordPress 7.0 Beta 5</title>
