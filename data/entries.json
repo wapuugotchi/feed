@@ -1,18 +1,18 @@
 [
   {
-    "id": "b5ba24209bdd8ccd7c942fd3f4405fd9",
+    "id": "6a8bc77440ae193d8b86bf458389afc3",
     "source": "wordpress-releases",
-    "title": "WordPress 7.0 Beta 5",
-    "link": "https://wordpress.org/news/2026/03/wordpress-7-0-beta-5/",
-    "content": "<p><strong>WordPress 7.0 Beta 5 is here!</strong></p><p>Test the latest version of WordPress on a test server and site.</p><ul><li><strong>Latest Beta Version:</strong> WordPress 7.0 Beta 5 is ready for download and testing!</li><li><strong>Development Status:</strong> This version of the WordPress software is still under development.</li><li><strong>Testing Warning:</strong> Please do not install, run, or test this version of WordPress on production or mission-critical websites.</li></ul>",
-    "created_at": "2026-03-12T15:49:14Z",
+    "title": "WordPress 7.0 Release Candidate 1",
+    "link": "https://wordpress.org/news/2026/03/wordpress-7-0-release-candidate-1/",
+    "content": "The first Release Candidate (“RC1”) for WordPress 7.0 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended to evaluate RC1 on a test server and site. WordPress 7.0 RC1 [&#8230;]",
+    "created_at": "2026-03-24T19:32:15Z",
     "categories": [
-      "General",
+      "Development",
       "Releases",
       "7-0",
-      "beta",
       "development",
-      "release"
+      "release",
+      "release candidates"
     ]
   }
 ]
