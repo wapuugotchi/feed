@@ -4,19 +4,20 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Tue, 24 Mar 2026 19:32:15 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 18:37:28 +0000</lastBuildDate>
     <item>
-      <id>6a8bc77440ae193d8b86bf458389afc3</id>
-      <title>WordPress 7.0 Release Candidate 1</title>
-      <link>https://wordpress.org/news/2026/03/wordpress-7-0-release-candidate-1/</link>
-      <pubDate>Tue, 24 Mar 2026 19:32:15 +0000</pubDate>
-      <description>The first Release Candidate (“RC1”) for WordPress 7.0 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended to evaluate RC1 on a test server and site. WordPress 7.0 RC1 [&amp;#8230;]</description>
+      <id>964249fb7c732be3ae23ad278a39d718</id>
+      <title>WordPress 7.0 Release Candidate 2</title>
+      <link>https://wordpress.org/news/2026/03/wordpress-7-0-release-candidate-2/</link>
+      <pubDate>Thu, 26 Mar 2026 18:37:28 +0000</pubDate>
+      <description>The second Release Candidate (“RC2”) for WordPress 7.0 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended that you evaluate RC2 on a test server and site. Reaching this phase [&amp;#8230;]</description>
       <category>Development</category>
+      <category>General</category>
       <category>Releases</category>
       <category>7-0</category>
       <category>development</category>
-      <category>release</category>
-      <category>release candidates</category>
+      <category>general</category>
+      <category>releases</category>
     </item>
     <item>
       <id>a1f7b3c94e2d6a80f5c3b9e1d4a72f83</id>
