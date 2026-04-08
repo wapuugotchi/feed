@@ -6,6 +6,20 @@
     <description></description>
     <lastBuildDate>Thu, 26 Mar 2026 18:37:28 +0000</lastBuildDate>
     <item>
+      <id>964249fb7c732be3ae23ad278a39d718</id>
+      <title>WordPress 7.0 Release Candidate 2</title>
+      <link>https://wordpress.org/news/2026/03/wordpress-7-0-release-candidate-2/</link>
+      <pubDate>Thu, 26 Mar 2026 18:37:28 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 RC2 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The second Release Candidate for WordPress 7.0 is ready for testing and evaluation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;New Features Preview:&lt;/strong&gt; Experience the upcoming features planned for the final release.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Testing Recommendations:&lt;/strong&gt; Do not use this version on production sites; evaluate it on a test server.&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>Development</category>
+      <category>General</category>
+      <category>Releases</category>
+      <category>7-0</category>
+      <category>development</category>
+      <category>general</category>
+      <category>releases</category>
+    </item>
+    <item>
       <id>a1f7b3c94e2d6a80f5c3b9e1d4a72f83</id>
       <title>my.WordPress.net – WordPress in Your Browser</title>
       <link>https://wordpress.org/news/2026/03/announcing-my-wordpress/</link>

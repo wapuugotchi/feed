@@ -1,0 +1,19 @@
+[
+  {
+    "id": "964249fb7c732be3ae23ad278a39d718",
+    "source": "wordpress-releases",
+    "title": "WordPress 7.0 Release Candidate 2",
+    "link": "https://wordpress.org/news/2026/03/wordpress-7-0-release-candidate-2/",
+    "content": "<p><strong>WordPress 7.0 RC2 is here!</strong></p><p>The second Release Candidate for WordPress 7.0 is ready for testing and evaluation.</p><ul><li><strong>New Features Preview:</strong> Experience the upcoming features planned for the final release.</li><li><strong>Testing Recommendations:</strong> Do not use this version on production sites; evaluate it on a test server.</li></ul>",
+    "created_at": "2026-03-26T18:37:28Z",
+    "categories": [
+      "Development",
+      "General",
+      "Releases",
+      "7-0",
+      "development",
+      "general",
+      "releases"
+    ]
+  }
+]
