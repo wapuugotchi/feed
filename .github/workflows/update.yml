@@ -16,8 +16,7 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
-      AI_PROVIDER: ${{ vars.AI_PROVIDER }}
+      GITHUB_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
       FEED_TITLE: ${{ vars.FEED_TITLE }}
       FEED_LINK: ${{ vars.FEED_LINK }}
       FEED_DESCRIPITION: ${{ vars.FEED_DESCRIPITION }}

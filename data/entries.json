@@ -1,19 +1,2 @@
 [
-  {
-    "id": "964249fb7c732be3ae23ad278a39d718",
-    "source": "wordpress-releases",
-    "title": "WordPress 7.0 Release Candidate 2",
-    "link": "https://wordpress.org/news/2026/03/wordpress-7-0-release-candidate-2/",
-    "content": "The second Release Candidate (“RC2”) for WordPress 7.0 is ready for download and testing! This version of the WordPress software is under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended that you evaluate RC2 on a test server and site. Reaching this phase [&#8230;]",
-    "created_at": "2026-03-26T18:37:28Z",
-    "categories": [
-      "Development",
-      "General",
-      "Releases",
-      "7-0",
-      "development",
-      "general",
-      "releases"
-    ]
-  }
 ]
