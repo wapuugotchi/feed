@@ -10,9 +10,8 @@ import ( // Import-Block: Abhängigkeiten dieser Datei.
 const releasesFeedURL = "https://wordpress.org/news/category/releases/feed/"
 // URL des WordPress.org News-Releases RSS-Feeds; hier kommen neue Release-Posts her.
 
-const releasesPattern = "Extract key highlights from the text below. Output RAW HTML only. Do NOT escape HTML characters. Do NOT output JSON. Use literal < > characters, not unicode (e.g. < not \\u003c). Output must be a single line with no line breaks. Format EXACTLY: <p><strong>WordPress ###VERSION### is here!</strong></p><p>###Description###</p><ul><li><strong>###TITLE_HIGHLIGHT_1:###</strong> TEXT_HIGHLIGHT_1</li><li><strong>###TITLE_HIGHLIGHT_2:###</strong> TEXT_HIGHLIGHT_2</li><li><strong>###TITLE_HIGHLIGHT_n:###</strong> TEXT_HIGHLIGHT_n</li></ul> Description must be one short sentence (max 60 characters), high-level, and must not repeat the headline. Text:\n\n%s"
-// Prompt-Template für die KI: extrahiert Highlights und erzwingt genau einzeiliges RAW-HTML in einem festen Layout.
-// Wichtig: "Do NOT escape HTML" + "literal < >" ist relevant, weil dein JSON-Writer später EscapeHTML(false) setzt,
+const releasesPattern = "You are given a WordPress release announcement. Extract the version, a one-sentence summary, and 2-4 key highlights written for a WordPress site administrator.\n\nImportant: If the release is a Release Candidate (RC), Beta, or any pre-release, always include the full label in the headline (e.g. \"WordPress 7.0 RC2 is here!\" not \"WordPress 7.0 is here!\").\n\nOutput raw HTML on a single line. No markdown, no code blocks, no extra text. Use literal < and > characters.\n\nFollow this structure exactly:\n<p><strong>WordPress 6.5 is here!</strong></p><p>A major release packed with new features and improvements.</p><ul><li><strong>Block Bindings API:</strong> Connect blocks directly to custom data sources.</li><li><strong>Font Library:</strong> Install and manage fonts from the editor.</li></ul>\n\nNow do the same for this text:\n\n%s"
+// Prompt-Template: nutzt ein konkretes Beispiel statt abstrakter Platzhalter-Syntax.
 // und du vermutlich wirklich HTML im RSS <description> ausliefern willst, nicht escaped Entities.
 
 type Item struct { // Internes, vereinheitlichtes Item-Format für dein Aggregationssystem (wird von mehreren Quellen genutzt).

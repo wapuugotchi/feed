@@ -63,14 +63,14 @@ func transformWithGitHub(prompt string) (string, error) {
 }
 
 func loadGitHubToken() (string, error) {
-	if token := env.ReadEnv("GITHUB_TOKEN"); token != "" {
+	if token := env.ReadEnv("GH_MODELS_TOKEN"); token != "" {
 		return token, nil
 	}
 	if err := env.LoadDotEnv(); err != nil {
 		return "", err
 	}
-	if token := env.ReadEnv("GITHUB_TOKEN"); token != "" {
+	if token := env.ReadEnv("GH_MODELS_TOKEN"); token != "" {
 		return token, nil
 	}
-	return "", fmt.Errorf("missing GitHub token: set GITHUB_TOKEN")
+	return "", fmt.Errorf("missing GitHub token: set GITHUB_TOKEN or GH_MODELS_TOKEN")
 }
