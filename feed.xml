@@ -4,7 +4,20 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Thu, 26 Mar 2026 18:37:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 04:00:00 +0000</lastBuildDate>
+    <item>
+      <id>b7d4e29f1c3a8e05d2f6b94c70a13d82</id>
+      <title>Watch WordCamp Asia 2026 Live</title>
+      <link>https://wordpress.org/news/2026/04/watch-wc-asia-2026-live/</link>
+      <pubDate>Thu, 09 Apr 2026 04:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordCamp Asia 2026&lt;/strong&gt; in Mumbai is live streamed — free for everyone. &lt;strong&gt;Starting today at 6:25 am!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Three days, three streams: &lt;strong&gt;Foundation, Growth and Enterprise&lt;/strong&gt;. Highlights: Fireside Chat with &lt;strong&gt;Mary Hubbard&lt;/strong&gt; and closing keynote by &lt;strong&gt;Matt Mullenweg&lt;/strong&gt;.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Day 1 – Contributor Day:&lt;/strong&gt; Release Squad members share how WordPress releases are made.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Days 2 &amp;amp; 3 – Conference:&lt;/strong&gt; Talks on AI, Developer Experience, Enterprise and Community.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Matt Mullenweg:&lt;/strong&gt; Closing keynote on Day 3.&lt;/li&gt;&lt;/ul&gt;</description>
+      <iframe>https://www.youtube.com/embed/tWTr9j4uWbE?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>2026</category>
+      <category>WordCamp</category>
+      <category>WCAsia</category>
+      <category>Community</category>
+      <category>Live</category>
+    </item>
     <item>
       <id>964249fb7c732be3ae23ad278a39d718</id>
       <title>WordPress 7.0 Release Candidate 2</title>
