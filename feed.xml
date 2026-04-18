@@ -24,7 +24,7 @@
       <title>WordCamp Asia 2026 – Recap from Mumbai</title>
       <link>https://wordpress.org/news/2026/04/celebrating-wcasia-2026/</link>
       <pubDate>Sat, 11 Apr 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;WordCamp Asia 2026&lt;/strong&gt; wrapped up in Mumbai — &lt;strong&gt;2,281 attendees&lt;/strong&gt;, three tracks, three days. Contributor Day brought 1,500+ participants to 38 tables, Polyglots suggested 7,000+ strings.&lt;/p&gt;&lt;p&gt;Mary Hubbard closed with a look ahead: WordPress 7.0, real-time collaboration, and global contributor growth are shaping what comes next.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;WordCamp Asia 2026&lt;/strong&gt; brought together &lt;strong&gt;2,281 WordPress enthusiasts&lt;/strong&gt; in Mumbai — one of the biggest WordPress gatherings ever in Asia!&lt;/p&gt;&lt;p&gt;Hundreds of volunteers spent a full day improving WordPress together: fixing bugs, translating WordPress into more languages, and welcoming new contributors to the community.&lt;/p&gt;&lt;p&gt;The highlight: a look ahead at WordPress 7.0 and exciting new features coming soon — including better tools for working together on your website in real time.&lt;/p&gt;</description>
       <iframe>https://www.youtube.com/embed/c2aFdpAazvo?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2026</category>
       <category>WordCamp</category>
@@ -37,7 +37,7 @@
       <title>WordPress &amp; AI: The Defining Theme of WCAsia 2026</title>
       <link>https://asia.wordcamp.org/2026/session/building-better-wordpress-experiences-with-ai-driven-development-workflows/</link>
       <pubDate>Fri, 10 Apr 2026 10:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;AI was the defining thread at &lt;strong&gt;WordCamp Asia 2026&lt;/strong&gt;. James LePage opened with &lt;em&gt;WordPress and AI&lt;/em&gt;, setting the tone for sessions on AI-driven workflows, autonomous testing with Playground, and plugin automation.&lt;/p&gt;&lt;p&gt;The question wasn&#39;t whether AI belongs in WordPress — but how fast the ecosystem can adapt.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;At &lt;strong&gt;WordCamp Asia 2026&lt;/strong&gt; in Mumbai, one topic dominated every conversation: AI.&lt;/p&gt;&lt;p&gt;Talks and sessions explored how artificial intelligence is starting to change the way WordPress websites are built and managed — making things faster and smarter for everyone, from beginners to experts.&lt;/p&gt;&lt;p&gt;The big takeaway: AI isn&#39;t replacing WordPress — it&#39;s becoming a powerful tool that helps WordPress do even more.&lt;/p&gt;</description>
       <iframe>https://www.youtube.com/embed/E1egsOFk6Fg?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2026</category>
       <category>WordCamp</category>
@@ -77,7 +77,7 @@
       <title>New AI Agent Skill for WordPress</title>
       <link>https://wordpress.org/news/2026/01/new-ai-agent-skill/</link>
       <pubDate>Fri, 30 Jan 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…there is a new WordPress AI agent skill called &lt;strong&gt;wp-playground&lt;/strong&gt; to speed up testing for plugins and themes?&lt;/p&gt;&lt;p&gt;It runs WordPress through the Playground CLI, detects whether your code belongs in &lt;code&gt;wp-content/plugins&lt;/code&gt; or &lt;code&gt;wp-content/themes&lt;/code&gt;, and helps agents validate changes in a fast feedback loop.&lt;/p&gt;&lt;p&gt;Early testing showed startup time dropping from about a minute to a few seconds with helper scripts, making iteration much faster.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…AI is now helping developers build better WordPress plugins and themes — faster and more reliably than ever before?&lt;/p&gt;&lt;p&gt;A new tool lets AI automatically test plugins and themes before they are released. This means fewer bugs reach your website, and updates become safer for everyone.&lt;/p&gt;&lt;p&gt;Thanks to AI, what used to take developers minutes now happens in seconds — so the tools you rely on keep getting better, faster.&lt;/p&gt;</description>
       <category>2026</category>
       <category>AI</category>
       <category>Development</category>
@@ -106,7 +106,7 @@
       <title>WordPress and the future of AI</title>
       <link>https://wordpress.org/news/2025/12/sotw-2025/</link>
       <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…artificial intelligence is becoming a foundational topic within the WordPress project?&lt;/p&gt;&lt;p&gt;New APIs and standards are being developed to allow AI tools to interact with WordPress in a structured, predictable, and responsible way.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;…artificial intelligence is becoming a big part of WordPress&#39;s future?&lt;/p&gt;&lt;p&gt;The people behind WordPress are working on making AI tools work seamlessly with your website — think smart writing helpers, automatic translations, or suggestions that make managing your site easier.&lt;/p&gt;&lt;p&gt;The goal: AI that helps you, works reliably, and respects your data.&lt;/p&gt;</description>
       <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2025</category>
       <category>AI</category>
