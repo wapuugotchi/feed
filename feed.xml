@@ -4,19 +4,46 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Thu, 09 Apr 2026 04:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Apr 2026 14:00:00 +0000</lastBuildDate>
+    <item>
+      <id>f2a8c51e9b4d7e30c5f1a82b6d9e4073</id>
+      <title>WordCamp India 2027 Announced as Fourth Flagship Event</title>
+      <link>https://wordpress.org/news/2026/04/celebrating-wcasia-2026/</link>
+      <pubDate>Sat, 11 Apr 2026 14:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;WordCamp India 2027&lt;/strong&gt; will become the &lt;strong&gt;fourth WordPress flagship event&lt;/strong&gt; — joining Europe, US, and Asia. Announced by Chenda Ngak at the closing of WordCamp Asia 2026 in Mumbai.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/KjUoiYz5dwY?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>2026</category>
+      <category>2027</category>
+      <category>WordCamp</category>
+      <category>WordCampIndia</category>
+      <category>Community</category>
+      <category>Announcement</category>
+    </item>
     <item>
       <id>b7d4e29f1c3a8e05d2f6b94c70a13d82</id>
-      <title>Watch WordCamp Asia 2026 Live</title>
-      <link>https://wordpress.org/news/2026/04/watch-wc-asia-2026-live/</link>
-      <pubDate>Thu, 09 Apr 2026 04:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordCamp Asia 2026&lt;/strong&gt; in Mumbai is live streamed — free for everyone. &lt;strong&gt;Starting today at 6:25 am!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Three days, three streams: &lt;strong&gt;Foundation, Growth and Enterprise&lt;/strong&gt;. Highlights: Fireside Chat with &lt;strong&gt;Mary Hubbard&lt;/strong&gt; and closing keynote by &lt;strong&gt;Matt Mullenweg&lt;/strong&gt;.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Day 1 – Contributor Day:&lt;/strong&gt; Release Squad members share how WordPress releases are made.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Days 2 &amp;amp; 3 – Conference:&lt;/strong&gt; Talks on AI, Developer Experience, Enterprise and Community.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Matt Mullenweg:&lt;/strong&gt; Closing keynote on Day 3.&lt;/li&gt;&lt;/ul&gt;</description>
-      <iframe>https://www.youtube.com/embed/tWTr9j4uWbE?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <title>WordCamp Asia 2026 – Recap from Mumbai</title>
+      <link>https://wordpress.org/news/2026/04/celebrating-wcasia-2026/</link>
+      <pubDate>Sat, 11 Apr 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;WordCamp Asia 2026&lt;/strong&gt; wrapped up in Mumbai — &lt;strong&gt;2,281 attendees&lt;/strong&gt;, three tracks, three days. Contributor Day brought 1,500+ participants to 38 tables, Polyglots suggested 7,000+ strings.&lt;/p&gt;&lt;p&gt;Mary Hubbard closed with a look ahead: WordPress 7.0, real-time collaboration, and global contributor growth are shaping what comes next.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/c2aFdpAazvo?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2026</category>
       <category>WordCamp</category>
       <category>WCAsia</category>
       <category>Community</category>
-      <category>Live</category>
+      <category>Recap</category>
+    </item>
+    <item>
+      <id>e5c3b79f2a1d8e40b7f3c96d4a2e5084</id>
+      <title>WordPress &amp; AI: The Defining Theme of WCAsia 2026</title>
+      <link>https://asia.wordcamp.org/2026/session/building-better-wordpress-experiences-with-ai-driven-development-workflows/</link>
+      <pubDate>Fri, 10 Apr 2026 10:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Did you know… 🤓&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;AI was the defining thread at &lt;strong&gt;WordCamp Asia 2026&lt;/strong&gt;. James LePage opened with &lt;em&gt;WordPress and AI&lt;/em&gt;, setting the tone for sessions on AI-driven workflows, autonomous testing with Playground, and plugin automation.&lt;/p&gt;&lt;p&gt;The question wasn&#39;t whether AI belongs in WordPress — but how fast the ecosystem can adapt.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/E1egsOFk6Fg?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>2026</category>
+      <category>WordCamp</category>
+      <category>WCAsia</category>
+      <category>AI</category>
+      <category>Development</category>
     </item>
     <item>
       <id>964249fb7c732be3ae23ad278a39d718</id>
