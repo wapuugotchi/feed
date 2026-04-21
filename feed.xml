@@ -5,5 +5,146 @@
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
     <lastBuildDate>Sat, 11 Apr 2026 14:00:00 +0000</lastBuildDate>
+    <item>
+      <id>f2a8c51e9b4d7e30c5f1a82b6d9e4073</id>
+      <title>WordCamp India 2027 Announced as Fourth Flagship Event</title>
+      <link>https://wordpress.org/news/2026/04/celebrating-wcasia-2026/</link>
+      <pubDate>Sat, 11 Apr 2026 14:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;WordCamp India 2027 will become the fourth WordPress flagship event — joining Europe, US, and Asia. Announced by Chenda Ngak at the closing of WordCamp Asia 2026 in Mumbai.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/KjUoiYz5dwY?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>2026</category>
+      <category>2027</category>
+      <category>WordCamp</category>
+      <category>WordCampIndia</category>
+      <category>Community</category>
+      <category>Announcement</category>
+    </item>
+    <item>
+      <id>b7d4e29f1c3a8e05d2f6b94c70a13d82</id>
+      <title>WordCamp Asia 2026 – Recap from Mumbai</title>
+      <link>https://wordpress.org/news/2026/04/celebrating-wcasia-2026/</link>
+      <pubDate>Sat, 11 Apr 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;WordCamp Asia 2026 brought together 2,281 WordPress enthusiasts in Mumbai — one of the biggest WordPress gatherings ever in Asia!&lt;/p&gt;&lt;p&gt;Hundreds of volunteers spent a full day improving WordPress together: fixing bugs, translating WordPress into more languages, and welcoming new contributors to the community.&lt;/p&gt;&lt;p&gt;The highlight: a look ahead at WordPress 7.0 and exciting new features coming soon — including better tools for working together on your website in real time.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/c2aFdpAazvo?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>2026</category>
+      <category>WordCamp</category>
+      <category>WCAsia</category>
+      <category>Community</category>
+      <category>Recap</category>
+    </item>
+    <item>
+      <id>e5c3b79f2a1d8e40b7f3c96d4a2e5084</id>
+      <title>WordPress &amp; AI: The Defining Theme of WCAsia 2026</title>
+      <link>https://asia.wordcamp.org/2026/session/building-better-wordpress-experiences-with-ai-driven-development-workflows/</link>
+      <pubDate>Fri, 10 Apr 2026 10:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;At WordCamp Asia 2026 in Mumbai, one topic dominated every conversation: AI.&lt;/p&gt;&lt;p&gt;Talks and sessions explored how artificial intelligence is starting to change the way WordPress websites are built and managed — making things faster and smarter for everyone, from beginners to experts.&lt;/p&gt;&lt;p&gt;The big takeaway: AI isn&#39;t replacing WordPress — it&#39;s becoming a powerful tool that helps WordPress do even more.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/E1egsOFk6Fg?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>2026</category>
+      <category>WordCamp</category>
+      <category>WCAsia</category>
+      <category>AI</category>
+      <category>Development</category>
+    </item>
+    <item>
+      <id>964249fb7c732be3ae23ad278a39d718</id>
+      <title>WordPress 7.0 Release Candidate 2</title>
+      <link>https://wordpress.org/news/2026/03/wordpress-7-0-release-candidate-2/</link>
+      <pubDate>Thu, 26 Mar 2026 18:37:28 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 RC2 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The second Release Candidate for WordPress 7.0 is ready for testing and evaluation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;New Features Preview:&lt;/strong&gt; Experience the upcoming features planned for the final release.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Testing Recommendations:&lt;/strong&gt; Do not use this version on production sites; evaluate it on a test server.&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>Development</category>
+      <category>General</category>
+      <category>Releases</category>
+      <category>7-0</category>
+      <category>development</category>
+      <category>general</category>
+      <category>releases</category>
+    </item>
+    <item>
+      <id>a1f7b3c94e2d6a80f5c3b9e1d4a72f83</id>
+      <title>my.WordPress.net – WordPress in Your Browser</title>
+      <link>https://wordpress.org/news/2026/03/announcing-my-wordpress/</link>
+      <pubDate>Fri, 13 Mar 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…there is now my.WordPress.net – a full WordPress that runs entirely in your browser?&lt;/p&gt;&lt;p&gt;No sign-up, no hosting, no domain. Just open it and start. Built on WordPress Playground, all data stays local – nothing is uploaded, nothing is publicly accessible.&lt;/p&gt;&lt;p&gt;It comes with ready-made apps like a Personal CRM, a private RSS Reader, and an AI Workspace that can even create custom plugins.&lt;/p&gt;</description>
+      <category>2026</category>
+      <category>DidYouKnow</category>
+      <category>Playground</category>
+      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
+      <id>e7f3a9124c6e4a90b5d2f8c1a3e97b44</id>
+      <title>New AI Agent Skill for WordPress</title>
+      <link>https://wordpress.org/news/2026/01/new-ai-agent-skill/</link>
+      <pubDate>Fri, 30 Jan 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…AI is now helping developers build better WordPress plugins and themes — faster and more reliably than ever before?&lt;/p&gt;&lt;p&gt;A new tool lets AI automatically test plugins and themes before they are released. This means fewer bugs reach your website, and updates become safer for everyone.&lt;/p&gt;&lt;p&gt;Thanks to AI, what used to take developers minutes now happens in seconds — so the tools you rely on keep getting better, faster.&lt;/p&gt;</description>
+      <category>2026</category>
+      <category>AI</category>
+      <category>Development</category>
+      <category>DidYouKnow</category>
+      <category>Playground</category>
+      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
+      <id>d4b2c8a1f0e34a6b9d7c1e2f3a4b5c6d</id>
+      <title>Learn WordPress for Designers</title>
+      <link>https://learn.wordpress.org/course/beginner-wordpress-designer</link>
+      <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…Learn WordPress has a dedicated learning path especially for designers?&lt;/p&gt;&lt;p&gt;It gently guides you through blocks, patterns, and the Site Editor, helping you turn creative ideas into real WordPress websites step by step.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/FcTLMTyD2DU?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>Course</category>
+      <category>Design</category>
+      <category>DidYouKnow</category>
+      <category>LearnWordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
+      <id>b6e4c91a0f8d4c2a9a71d55e3e29ac77</id>
+      <title>WordPress and the future of AI</title>
+      <link>https://wordpress.org/news/2025/12/sotw-2025/</link>
+      <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…artificial intelligence is becoming a big part of WordPress&#39;s future?&lt;/p&gt;&lt;p&gt;The people behind WordPress are working on making AI tools work seamlessly with your website — think smart writing helpers, automatic translations, or suggestions that make managing your site easier.&lt;/p&gt;&lt;p&gt;The goal: AI that helps you, works reliably, and respects your data.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>2025</category>
+      <category>AI</category>
+      <category>DidYouKnow</category>
+      <category>Future</category>
+      <category>StateOfTheWord</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
+      <id>5af11cb112f1516b765ef160331e2f99</id>
+      <title>WordPress isn’t just software</title>
+      <link>https://wordpress.tv/event/wordcamp-europe-2025/</link>
+      <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…there are large WordPress events around the world where enthusiasts meet and learn from each other?&lt;/p&gt;&lt;p&gt;Conferences like WordCamp Europe, WordCamp US, and WordCamp Asia bring the global WordPress community together in person.&lt;/p&gt;&lt;p&gt;These events feature talks, workshops, and networking opportunities for everyone from beginners to seasoned developers.&lt;/p&gt;</description>
+      <iframe>https://video.wordpress.com/embed/zVmqygRk?hd=1&amp;autoPlay=0&amp;permalink=1&amp;loop=0&amp;preloadContent=metadata&amp;muted=0&amp;playsinline=0&amp;controls=1&amp;cover=1</iframe>
+      <category>2025</category>
+      <category>DidYouKnow</category>
+      <category>Event</category>
+      <category>WordCampEurope</category>
+      <category>WordCampTV</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
+      <id>9c2d41f1b2e84c8a9c1d3a4e6f781001</id>
+      <title>WordPress powers the open web</title>
+      <link>https://wordpress.org/news/2025/12/sotw-2025/</link>
+      <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…WordPress now powers more than 43% of all websites worldwide, making it the most widely used content management system on the internet?&lt;/p&gt;&lt;p&gt;This scale is the result of nearly two decades of open-source development and a global community continuously improving the platform.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>2025</category>
+      <category>DidYouKnow</category>
+      <category>OpenWeb</category>
+      <category>StateOfTheWord</category>
+      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
   </channel>
 </rss>
