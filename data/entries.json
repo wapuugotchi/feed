@@ -1,11 +1,11 @@
 [
   {
-    "id": "611efcddbc785b0360b9c12a8d45debd",
+    "id": "40e278cc9c6d63ab4d22a6d5e8b526ef",
     "source": "wordpress-releases",
-    "title": "WordPress 7.0 Release Candidate 3",
-    "link": "https://wordpress.org/news/2026/05/wordpress-7-0-release-candidate-3/",
-    "content": "<p><strong>WordPress 7.0 RC3 is here!</strong></p><p>The third Release Candidate for WordPress 7.0 is ready for download and testing.</p><ul><li><strong>Testing Phase:</strong> Designed specifically for developers to test new features.</li><li><strong>Do Not Use in Production:</strong> Not meant for live or mission-critical sites.</li></ul>",
-    "created_at": "2026-05-08T18:18:48Z",
+    "title": "WordPress 7.0 Release Candidate 4",
+    "link": "https://wordpress.org/news/2026/05/wordpress-7-0-release-candidate-4/",
+    "content": "<p><strong>WordPress 7.0 RC4 is here!</strong></p><p>The fourth Release Candidate for WordPress 7.0 is ready for testing and feedback.</p><ul><li><strong>Performance Improvements:</strong> Enhanced speed and efficiency throughout the platform.</li><li><strong>New Features:</strong> Exciting additions aimed at improving the user experience.</li></ul>",
+    "created_at": "2026-05-14T16:47:15Z",
     "categories": [
       "Development",
       "General",

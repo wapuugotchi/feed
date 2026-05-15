@@ -4,13 +4,13 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Fri, 08 May 2026 18:18:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 16:47:15 +0000</lastBuildDate>
     <item>
-      <id>611efcddbc785b0360b9c12a8d45debd</id>
-      <title>WordPress 7.0 Release Candidate 3</title>
-      <link>https://wordpress.org/news/2026/05/wordpress-7-0-release-candidate-3/</link>
-      <pubDate>Fri, 08 May 2026 18:18:48 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 RC3 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The third Release Candidate for WordPress 7.0 is ready for download and testing.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Testing Phase:&lt;/strong&gt; Designed specifically for developers to test new features.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Do Not Use in Production:&lt;/strong&gt; Not meant for live or mission-critical sites.&lt;/li&gt;&lt;/ul&gt;</description>
+      <id>40e278cc9c6d63ab4d22a6d5e8b526ef</id>
+      <title>WordPress 7.0 Release Candidate 4</title>
+      <link>https://wordpress.org/news/2026/05/wordpress-7-0-release-candidate-4/</link>
+      <pubDate>Thu, 14 May 2026 16:47:15 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 RC4 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The fourth Release Candidate for WordPress 7.0 is ready for testing and feedback.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Performance Improvements:&lt;/strong&gt; Enhanced speed and efficiency throughout the platform.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;New Features:&lt;/strong&gt; Exciting additions aimed at improving the user experience.&lt;/li&gt;&lt;/ul&gt;</description>
       <category>Development</category>
       <category>General</category>
       <category>Releases</category>
