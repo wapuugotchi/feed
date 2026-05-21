@@ -1,19 +1,15 @@
 [
   {
-    "id": "40e278cc9c6d63ab4d22a6d5e8b526ef",
+    "id": "2a2bb8c77314a3d86450a4705247be83",
     "source": "wordpress-releases",
-    "title": "WordPress 7.0 Release Candidate 4",
-    "link": "https://wordpress.org/news/2026/05/wordpress-7-0-release-candidate-4/",
-    "content": "<p><strong>WordPress 7.0 RC4 is here!</strong></p><p>The fourth Release Candidate for WordPress 7.0 is ready for testing and feedback.</p><ul><li><strong>Performance Improvements:</strong> Enhanced speed and efficiency throughout the platform.</li><li><strong>New Features:</strong> Exciting additions aimed at improving the user experience.</li></ul>",
-    "created_at": "2026-05-14T16:47:15Z",
+    "title": "WordPress 7.0 “Armstrong”",
+    "link": "https://wordpress.org/news/2026/05/armstrong/",
+    "content": "<p><strong>WordPress 7.0 is here!</strong></p><p>A major release enhancing your website with AI features and a refreshed admin experience.</p><ul><li><strong>Central AI Hub:</strong> Explore AI capabilities managed from a unified dashboard.</li><li><strong>New Admin Theme:</strong> Experience a sleek design for an improved navigation experience.</li><li><strong>Expanded Developer Toolbox:</strong> Gain more control with new blocks and design tools.</li></ul>",
+    "created_at": "2026-05-20T18:41:06Z",
     "categories": [
-      "Development",
-      "General",
       "Releases",
       "7-0",
-      "development",
-      "general",
-      "release candidates",
+      "7.0",
       "releases"
     ]
   }

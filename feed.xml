@@ -4,20 +4,16 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Thu, 14 May 2026 16:47:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2026 18:41:06 +0000</lastBuildDate>
     <item>
-      <id>40e278cc9c6d63ab4d22a6d5e8b526ef</id>
-      <title>WordPress 7.0 Release Candidate 4</title>
-      <link>https://wordpress.org/news/2026/05/wordpress-7-0-release-candidate-4/</link>
-      <pubDate>Thu, 14 May 2026 16:47:15 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 RC4 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The fourth Release Candidate for WordPress 7.0 is ready for testing and feedback.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Performance Improvements:&lt;/strong&gt; Enhanced speed and efficiency throughout the platform.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;New Features:&lt;/strong&gt; Exciting additions aimed at improving the user experience.&lt;/li&gt;&lt;/ul&gt;</description>
-      <category>Development</category>
-      <category>General</category>
+      <id>2a2bb8c77314a3d86450a4705247be83</id>
+      <title>WordPress 7.0 “Armstrong”</title>
+      <link>https://wordpress.org/news/2026/05/armstrong/</link>
+      <pubDate>Wed, 20 May 2026 18:41:06 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A major release enhancing your website with AI features and a refreshed admin experience.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Central AI Hub:&lt;/strong&gt; Explore AI capabilities managed from a unified dashboard.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;New Admin Theme:&lt;/strong&gt; Experience a sleek design for an improved navigation experience.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Expanded Developer Toolbox:&lt;/strong&gt; Gain more control with new blocks and design tools.&lt;/li&gt;&lt;/ul&gt;</description>
       <category>Releases</category>
       <category>7-0</category>
-      <category>development</category>
-      <category>general</category>
-      <category>release candidates</category>
+      <category>7.0</category>
       <category>releases</category>
     </item>
     <item>
