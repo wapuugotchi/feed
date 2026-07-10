@@ -4,16 +4,17 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Wed, 20 May 2026 18:41:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 17:33:42 +0000</lastBuildDate>
     <item>
-      <id>2a2bb8c77314a3d86450a4705247be83</id>
-      <title>WordPress 7.0 “Armstrong”</title>
-      <link>https://wordpress.org/news/2026/05/armstrong/</link>
-      <pubDate>Wed, 20 May 2026 18:41:06 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A major release enhancing your website with AI features and a refreshed admin experience.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Central AI Hub:&lt;/strong&gt; Explore AI capabilities managed from a unified dashboard.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;New Admin Theme:&lt;/strong&gt; Experience a sleek design for an improved navigation experience.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Expanded Developer Toolbox:&lt;/strong&gt; Gain more control with new blocks and design tools.&lt;/li&gt;&lt;/ul&gt;</description>
+      <id>4641e2c8519e46565cb698b50d8db279</id>
+      <title>WordPress 7.0.1 Maintenance Release</title>
+      <link>https://wordpress.org/news/2026/07/wordpress-7-0-1-maintenance-release/</link>
+      <pubDate>Thu, 09 Jul 2026 17:33:42 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0.1 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This minor release includes fixes for 31 bugs throughout Core and the Block Editor.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Bug Fixes:&lt;/strong&gt; Addresses issues affecting multiple areas including the block editor, admin UI, and media.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Short-Cycle Maintenance:&lt;/strong&gt; Aimed at improving stability before the next major version.&lt;/li&gt;&lt;/ul&gt;</description>
       <category>Releases</category>
-      <category>7-0</category>
       <category>7.0</category>
+      <category>7.0.1</category>
+      <category>minor-releases</category>
       <category>releases</category>
     </item>
     <item>

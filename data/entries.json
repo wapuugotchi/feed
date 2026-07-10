@@ -1,15 +1,16 @@
 [
   {
-    "id": "2a2bb8c77314a3d86450a4705247be83",
+    "id": "4641e2c8519e46565cb698b50d8db279",
     "source": "wordpress-releases",
-    "title": "WordPress 7.0 “Armstrong”",
-    "link": "https://wordpress.org/news/2026/05/armstrong/",
-    "content": "<p><strong>WordPress 7.0 is here!</strong></p><p>A major release enhancing your website with AI features and a refreshed admin experience.</p><ul><li><strong>Central AI Hub:</strong> Explore AI capabilities managed from a unified dashboard.</li><li><strong>New Admin Theme:</strong> Experience a sleek design for an improved navigation experience.</li><li><strong>Expanded Developer Toolbox:</strong> Gain more control with new blocks and design tools.</li></ul>",
-    "created_at": "2026-05-20T18:41:06Z",
+    "title": "WordPress 7.0.1 Maintenance Release",
+    "link": "https://wordpress.org/news/2026/07/wordpress-7-0-1-maintenance-release/",
+    "content": "<p><strong>WordPress 7.0.1 is here!</strong></p><p>This minor release includes fixes for 31 bugs throughout Core and the Block Editor.</p><ul><li><strong>Bug Fixes:</strong> Addresses issues affecting multiple areas including the block editor, admin UI, and media.</li><li><strong>Short-Cycle Maintenance:</strong> Aimed at improving stability before the next major version.</li></ul>",
+    "created_at": "2026-07-09T17:33:42Z",
     "categories": [
       "Releases",
-      "7-0",
       "7.0",
+      "7.0.1",
+      "minor-releases",
       "releases"
     ]
   }
