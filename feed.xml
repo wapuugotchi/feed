@@ -4,18 +4,19 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Thu, 09 Jul 2026 17:33:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 15:53:33 +0000</lastBuildDate>
     <item>
-      <id>4641e2c8519e46565cb698b50d8db279</id>
-      <title>WordPress 7.0.1 Maintenance Release</title>
-      <link>https://wordpress.org/news/2026/07/wordpress-7-0-1-maintenance-release/</link>
-      <pubDate>Thu, 09 Jul 2026 17:33:42 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0.1 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This minor release includes fixes for 31 bugs throughout Core and the Block Editor.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Bug Fixes:&lt;/strong&gt; Addresses issues affecting multiple areas including the block editor, admin UI, and media.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Short-Cycle Maintenance:&lt;/strong&gt; Aimed at improving stability before the next major version.&lt;/li&gt;&lt;/ul&gt;</description>
+      <id>2e8f7090507b39f430063cdb070a8aef</id>
+      <title>WordPress 7.1 Beta 1</title>
+      <link>https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/</link>
+      <pubDate>Wed, 15 Jul 2026 15:53:33 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.1 Beta 1 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A beta release intended for testing and development purposes only.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;New Features Exploration:&lt;/strong&gt; Test the latest features in a safe environment.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Development Focus:&lt;/strong&gt; Ideal for developers to experiment and provide feedback.&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>Development</category>
+      <category>General</category>
       <category>Releases</category>
-      <category>7.0</category>
-      <category>7.0.1</category>
-      <category>minor-releases</category>
-      <category>releases</category>
+      <category>7-1</category>
+      <category>development</category>
+      <category>release</category>
     </item>
     <item>
       <id>f2a8c51e9b4d7e30c5f1a82b6d9e4073</id>
