@@ -1,18 +1,16 @@
 [
   {
-    "id": "2e8f7090507b39f430063cdb070a8aef",
+    "id": "41dc45b2350d3188489b50b5d0793adc",
     "source": "wordpress-releases",
-    "title": "WordPress 7.1 Beta 1",
-    "link": "https://wordpress.org/news/2026/07/wordpress-7-1-beta-1/",
-    "content": "<p><strong>WordPress 7.1 Beta 1 is here!</strong></p><p>A beta release intended for testing and development purposes only.</p><ul><li><strong>New Features Exploration:</strong> Test the latest features in a safe environment.</li><li><strong>Development Focus:</strong> Ideal for developers to experiment and provide feedback.</li></ul>",
-    "created_at": "2026-07-15T15:53:33Z",
+    "title": "WordPress 7.0.2 Release",
+    "link": "https://wordpress.org/news/2026/07/wordpress-7-0-2-release/",
+    "content": "<p><strong>WordPress 7.0.2 is here!</strong></p><p>A critical security release addressing important vulnerabilities.</p><ul><li><strong>Security Fixes:</strong> Resolves one critical and one high severity security issue.</li><li><strong>Auto-Update:</strong> Forced updates are enabled for affected versions to ensure site security.</li></ul>",
+    "created_at": "2026-07-17T18:45:54Z",
     "categories": [
-      "Development",
-      "General",
       "Releases",
-      "7-1",
-      "development",
-      "release"
+      "Security",
+      "minor-releases",
+      "releases"
     ]
   }
 ]
