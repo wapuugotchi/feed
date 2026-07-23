@@ -4,17 +4,19 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Fri, 17 Jul 2026 18:45:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 15:23:14 +0000</lastBuildDate>
     <item>
-      <id>41dc45b2350d3188489b50b5d0793adc</id>
-      <title>WordPress 7.0.2 Release</title>
-      <link>https://wordpress.org/news/2026/07/wordpress-7-0-2-release/</link>
-      <pubDate>Fri, 17 Jul 2026 18:45:54 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.0.2 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;A critical security release addressing important vulnerabilities.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Security Fixes:&lt;/strong&gt; Resolves one critical and one high severity security issue.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Auto-Update:&lt;/strong&gt; Forced updates are enabled for affected versions to ensure site security.&lt;/li&gt;&lt;/ul&gt;</description>
+      <id>5cbb11411b181e14308c2451ca1a7404</id>
+      <title>WordPress 7.1 Beta 3</title>
+      <link>https://wordpress.org/news/2026/07/wordpress-7-1-beta-3/</link>
+      <pubDate>Wed, 22 Jul 2026 15:23:14 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.1 Beta 3 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This beta release is intended for testing and development only.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;New Features:&lt;/strong&gt; Explore the latest enhancements and functionalities in a testing environment.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Important Reminder:&lt;/strong&gt; Do not use this version on production or mission-critical websites.&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>Development</category>
+      <category>General</category>
       <category>Releases</category>
-      <category>Security</category>
-      <category>minor-releases</category>
-      <category>releases</category>
+      <category>7-1</category>
+      <category>development</category>
+      <category>release</category>
     </item>
     <item>
       <id>f2a8c51e9b4d7e30c5f1a82b6d9e4073</id>
