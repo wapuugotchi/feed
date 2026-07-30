@@ -4,7 +4,20 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Thu, 23 Jul 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 15:30:58 +0000</lastBuildDate>
+    <item>
+      <id>7cdd6e9dd191c862249ecc77ea18eb95</id>
+      <title>WordPress 7.1 Beta 4</title>
+      <link>https://wordpress.org/news/2026/07/wordpress-7-1-beta-4/</link>
+      <pubDate>Wed, 29 Jul 2026 15:30:58 +0000</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.1 Beta 4 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This beta release is intended for testing and development only.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Enhanced Block Editor:&lt;/strong&gt; Discover new features for block creation and editing.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Performance Improvements:&lt;/strong&gt; Experience faster load times and enhanced responsiveness.&lt;/li&gt;&lt;/ul&gt;</description>
+      <category>Development</category>
+      <category>General</category>
+      <category>Releases</category>
+      <category>7-1</category>
+      <category>development</category>
+      <category>release</category>
+    </item>
     <item>
       <id>c9a2f4718e3b6d05a1f8c92b73e6a04d</id>
       <title>Wapuu Studio – Design Your Own Wapuu with AI</title>
@@ -18,19 +31,6 @@
       <category>DidYouKnow</category>
       <category>did-you-know</category>
       <category>article</category>
-    </item>
-    <item>
-      <id>5cbb11411b181e14308c2451ca1a7404</id>
-      <title>WordPress 7.1 Beta 3</title>
-      <link>https://wordpress.org/news/2026/07/wordpress-7-1-beta-3/</link>
-      <pubDate>Wed, 22 Jul 2026 15:23:14 +0000</pubDate>
-      <description>&lt;p&gt;&lt;strong&gt;WordPress 7.1 Beta 3 is here!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;This beta release is intended for testing and development only.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;New Features:&lt;/strong&gt; Explore the latest enhancements and functionalities in a testing environment.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Important Reminder:&lt;/strong&gt; Do not use this version on production or mission-critical websites.&lt;/li&gt;&lt;/ul&gt;</description>
-      <category>Development</category>
-      <category>General</category>
-      <category>Releases</category>
-      <category>7-1</category>
-      <category>development</category>
-      <category>release</category>
     </item>
     <item>
       <id>f2a8c51e9b4d7e30c5f1a82b6d9e4073</id>
