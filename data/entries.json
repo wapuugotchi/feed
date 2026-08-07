@@ -1,18 +1,16 @@
 [
   {
-    "id": "742436d74fdc582bd6c86e7f4e36b7ff",
+    "id": "d59a184e9afea5b9b6843ac9510eb392",
     "source": "wordpress-releases",
-    "title": "WordPress 7.1 Release Candidate 1",
-    "link": "https://wordpress.org/news/2026/08/wordpress-7-1-release-candidate-1/",
-    "content": "The first Release Candidate (“RC1”) for WordPress 7.1 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended to evaluate RC1 on a test server and site. WordPress 7.1 RC1 [&#8230;]",
-    "created_at": "2026-08-05T15:37:33Z",
+    "title": "WordPress 7.0.3 release",
+    "link": "https://wordpress.org/news/2026/08/wordpress-7-0-3-release/",
+    "content": "WordPress 7.0.3 is now available WordPress 7.0.3 is now available which features several security fixes. Because this is a security release, it is recommended that you update your sites immediately. You can update to WordPress 7.0.3 by downloading it from WordPress.org, or visiting your site&#8217;s Dashboard → Updates and clicking Update Now. Sites that support [&#8230;]",
+    "created_at": "2026-08-06T18:55:30Z",
     "categories": [
-      "Development",
-      "General",
       "Releases",
-      "7-1",
-      "development",
-      "release"
+      "Security",
+      "minor-releases",
+      "releases"
     ]
   }
 ]
