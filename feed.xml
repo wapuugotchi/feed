@@ -4,13 +4,13 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Thu, 06 Aug 2026 18:55:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 14:45:53 +0000</lastBuildDate>
     <item>
-      <id>d59a184e9afea5b9b6843ac9510eb392</id>
-      <title>WordPress 7.0.3 release</title>
-      <link>https://wordpress.org/news/2026/08/wordpress-7-0-3-release/</link>
-      <pubDate>Thu, 06 Aug 2026 18:55:30 +0000</pubDate>
-      <description>WordPress 7.0.3 is now available WordPress 7.0.3 is now available which features several security fixes. Because this is a security release, it is recommended that you update your sites immediately. You can update to WordPress 7.0.3 by downloading it from WordPress.org, or visiting your site&amp;#8217;s Dashboard → Updates and clicking Update Now. Sites that support [&amp;#8230;]</description>
+      <id>f21045ae9fc4b18b2f406bc0a0a16182</id>
+      <title>WordPress 7.0.4 Release</title>
+      <link>https://wordpress.org/news/2026/08/wordpress-7-0-4-release/</link>
+      <pubDate>Wed, 12 Aug 2026 14:45:53 +0000</pubDate>
+      <description>WordPress 7.0.4 is now available WordPress 7.0.4 is now available which features a security fix. Because this is a security release, it is recommended that you update your sites immediately. You can update to WordPress 7.0.4 by downloading it from WordPress.org, or visiting your site&amp;#8217;s Dashboard → Updates and clicking Update Now. Sites that support [&amp;#8230;]</description>
       <category>Releases</category>
       <category>Security</category>
       <category>minor-releases</category>
