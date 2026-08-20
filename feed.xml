@@ -4,16 +4,16 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Wed, 12 Aug 2026 14:45:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 23:33:49 +0000</lastBuildDate>
     <item>
-      <id>f21045ae9fc4b18b2f406bc0a0a16182</id>
-      <title>WordPress 7.0.4 Release</title>
-      <link>https://wordpress.org/news/2026/08/wordpress-7-0-4-release/</link>
-      <pubDate>Wed, 12 Aug 2026 14:45:53 +0000</pubDate>
-      <description>WordPress 7.0.4 is now available WordPress 7.0.4 is now available which features a security fix. Because this is a security release, it is recommended that you update your sites immediately. You can update to WordPress 7.0.4 by downloading it from WordPress.org, or visiting your site&amp;#8217;s Dashboard → Updates and clicking Update Now. Sites that support [&amp;#8230;]</description>
+      <id>5b8389b9c3045cfacaa9a8872375d27f</id>
+      <title>WordPress 7.1 “Mary Lou”</title>
+      <link>https://wordpress.org/news/2026/08/mary-lou/</link>
+      <pubDate>Wed, 19 Aug 2026 23:33:49 +0000</pubDate>
+      <description>WordPress 7.1, “Mary Lou,” is here—celebrating the pioneering jazz pianist, composer, and arranger Mary Lou Williams and her spirit of reinvention and collaboration. This release brings a more flexible, responsive, and collaborative WordPress experience, with new responsive styling controls, a redesigned media editor, richer Notes with mentions and inline feedback, improved image processing, and new Playlist and Tabs blocks.</description>
       <category>Releases</category>
-      <category>Security</category>
-      <category>minor-releases</category>
+      <category>7-1</category>
+      <category>7.1</category>
       <category>releases</category>
     </item>
     <item>

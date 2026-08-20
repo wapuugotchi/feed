@@ -1,15 +1,15 @@
 [
   {
-    "id": "f21045ae9fc4b18b2f406bc0a0a16182",
+    "id": "5b8389b9c3045cfacaa9a8872375d27f",
     "source": "wordpress-releases",
-    "title": "WordPress 7.0.4 Release",
-    "link": "https://wordpress.org/news/2026/08/wordpress-7-0-4-release/",
-    "content": "WordPress 7.0.4 is now available WordPress 7.0.4 is now available which features a security fix. Because this is a security release, it is recommended that you update your sites immediately. You can update to WordPress 7.0.4 by downloading it from WordPress.org, or visiting your site&#8217;s Dashboard → Updates and clicking Update Now. Sites that support [&#8230;]",
-    "created_at": "2026-08-12T14:45:53Z",
+    "title": "WordPress 7.1 “Mary Lou”",
+    "link": "https://wordpress.org/news/2026/08/mary-lou/",
+    "content": "WordPress 7.1, “Mary Lou,” is here—celebrating the pioneering jazz pianist, composer, and arranger Mary Lou Williams and her spirit of reinvention and collaboration. This release brings a more flexible, responsive, and collaborative WordPress experience, with new responsive styling controls, a redesigned media editor, richer Notes with mentions and inline feedback, improved image processing, and new Playlist and Tabs blocks.",
+    "created_at": "2026-08-19T23:33:49Z",
     "categories": [
       "Releases",
-      "Security",
-      "minor-releases",
+      "7-1",
+      "7.1",
       "releases"
     ]
   }
