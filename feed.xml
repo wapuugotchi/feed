@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Wapuugotchi RSS</title>
-    <link>https://wapuugotchi.github.io/feed/</link>
+    <title></title>
+    <link></link>
     <description></description>
     <lastBuildDate>Wed, 19 Aug 2026 23:33:49 +0000</lastBuildDate>
     <item>
@@ -15,6 +15,33 @@
       <category>7-1</category>
       <category>7.1</category>
       <category>releases</category>
+    </item>
+    <item>
+      <id>f09cc80222f0b6ede7e537094fc679b5</id>
+      <title>Official WordPress Browser Extension Launches</title>
+      <link>https://wordpress.org/news/2026/08/browser-extension/</link>
+      <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…there&#39;s now an official WordPress browser extension for Chrome and Safari?&lt;/p&gt;&lt;p&gt;It hides the clunky admin bar while keeping quick shortcuts to your dashboard just one click away — plus handy dev tools like block outlines and a cache-busting reload.&lt;/p&gt;&lt;img src=&#34;https://i0.wp.com/wordpress.org/news/files/2026/08/wordpress-browser-extension.gif?resize=1280%2C719&amp;ssl=1&#34; alt=&#34;WordPress browser extension hiding and showing the admin bar&#34; /&gt;&lt;p&gt;Everything runs locally on your device, nothing gets tracked. Built by the community, now officially supported by WordPress. Give it a spin!&lt;/p&gt;</description>
+      <category>2026</category>
+      <category>Browser</category>
+      <category>Extension</category>
+      <category>Development</category>
+      <category>DidYouKnow</category>
+      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
+      <id>fca4eee8d7f8e2e50ac428819c61d84f</id>
+      <title>WordCamp US 2026 – Guide to Phoenix</title>
+      <link>https://wordpress.org/news/2026/07/wcus-2026-guide/</link>
+      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…WordCamp US is packing its bags for Phoenix this August 16–19?&lt;/p&gt;&lt;p&gt;Pack your laptop (and sunscreen). Contributor Day opens things up with a full day of community bug-squashing, then it&#39;s talks on AI, dev skills, and WordPress basics, a Showcase Day of real sites, a Happiness Bar for troubleshooting, and a Career Corner if you&#39;re job hunting.&lt;/p&gt;&lt;p&gt;Grab a ticket and book your hotel — rooms are filling up fast!&lt;/p&gt;</description>
+      <category>2026</category>
+      <category>WordCamp</category>
+      <category>WCUS</category>
+      <category>Community</category>
+      <category>Announcement</category>
     </item>
     <item>
       <id>c9a2f4718e3b6d05a1f8c92b73e6a04d</id>
@@ -99,31 +126,17 @@
       <category>did-you-know</category>
     </item>
     <item>
-      <id>d4b2c8a1f0e34a6b9d7c1e2f3a4b5c6d</id>
-      <title>Learn WordPress for Designers</title>
-      <link>https://learn.wordpress.org/course/beginner-wordpress-designer</link>
-      <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
-      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…Learn WordPress has a dedicated learning path especially for designers?&lt;/p&gt;&lt;p&gt;It gently guides you through blocks, patterns, and the Site Editor, helping you turn creative ideas into real WordPress websites step by step.&lt;/p&gt;</description>
-      <iframe>https://www.youtube.com/embed/FcTLMTyD2DU?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
-      <category>Course</category>
-      <category>Design</category>
-      <category>DidYouKnow</category>
-      <category>LearnWordPress</category>
-      <category>article</category>
-      <category>did-you-know</category>
-    </item>
-    <item>
-      <id>b6e4c91a0f8d4c2a9a71d55e3e29ac77</id>
-      <title>WordPress and the future of AI</title>
+      <id>9c2d41f1b2e84c8a9c1d3a4e6f781001</id>
+      <title>WordPress powers the open web</title>
       <link>https://wordpress.org/news/2025/12/sotw-2025/</link>
       <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
-      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…artificial intelligence is becoming a big part of WordPress&#39;s future?&lt;/p&gt;&lt;p&gt;The people behind WordPress are working on making AI tools work seamlessly with your website — think smart writing helpers, automatic translations, or suggestions that make managing your site easier.&lt;/p&gt;&lt;p&gt;The goal: AI that helps you, works reliably, and respects your data.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…WordPress now powers more than 43% of all websites worldwide, making it the most widely used content management system on the internet?&lt;/p&gt;&lt;p&gt;This scale is the result of nearly two decades of open-source development and a global community continuously improving the platform.&lt;/p&gt;</description>
       <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2025</category>
-      <category>AI</category>
       <category>DidYouKnow</category>
-      <category>Future</category>
+      <category>OpenWeb</category>
       <category>StateOfTheWord</category>
+      <category>WordPress</category>
       <category>article</category>
       <category>did-you-know</category>
     </item>
@@ -143,17 +156,31 @@
       <category>did-you-know</category>
     </item>
     <item>
-      <id>9c2d41f1b2e84c8a9c1d3a4e6f781001</id>
-      <title>WordPress powers the open web</title>
+      <id>b6e4c91a0f8d4c2a9a71d55e3e29ac77</id>
+      <title>WordPress and the future of AI</title>
       <link>https://wordpress.org/news/2025/12/sotw-2025/</link>
       <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
-      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…WordPress now powers more than 43% of all websites worldwide, making it the most widely used content management system on the internet?&lt;/p&gt;&lt;p&gt;This scale is the result of nearly two decades of open-source development and a global community continuously improving the platform.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…artificial intelligence is becoming a big part of WordPress&#39;s future?&lt;/p&gt;&lt;p&gt;The people behind WordPress are working on making AI tools work seamlessly with your website — think smart writing helpers, automatic translations, or suggestions that make managing your site easier.&lt;/p&gt;&lt;p&gt;The goal: AI that helps you, works reliably, and respects your data.&lt;/p&gt;</description>
       <iframe>https://www.youtube.com/embed/U_DF4-23C8Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
       <category>2025</category>
+      <category>AI</category>
       <category>DidYouKnow</category>
-      <category>OpenWeb</category>
+      <category>Future</category>
       <category>StateOfTheWord</category>
-      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
+      <id>d4b2c8a1f0e34a6b9d7c1e2f3a4b5c6d</id>
+      <title>Learn WordPress for Designers</title>
+      <link>https://learn.wordpress.org/course/beginner-wordpress-designer</link>
+      <pubDate>Mon, 01 Dec 2025 20:12:21 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…Learn WordPress has a dedicated learning path especially for designers?&lt;/p&gt;&lt;p&gt;It gently guides you through blocks, patterns, and the Site Editor, helping you turn creative ideas into real WordPress websites step by step.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/FcTLMTyD2DU?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>Course</category>
+      <category>Design</category>
+      <category>DidYouKnow</category>
+      <category>LearnWordPress</category>
       <category>article</category>
       <category>did-you-know</category>
     </item>

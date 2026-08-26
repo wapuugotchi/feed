@@ -1,0 +1,17 @@
+{
+  "id": "f09cc80222f0b6ede7e537094fc679b5",
+  "title": "Official WordPress Browser Extension Launches",
+  "link": "https://wordpress.org/news/2026/08/browser-extension/",
+  "content": "<p>Did you know… 🤓</p><p>…there's now an official WordPress browser extension for Chrome and Safari?</p><p>It hides the clunky admin bar while keeping quick shortcuts to your dashboard just one click away — plus handy dev tools like block outlines and a cache-busting reload.</p><img src=\"https://i0.wp.com/wordpress.org/news/files/2026/08/wordpress-browser-extension.gif?resize=1280%2C719&ssl=1\" alt=\"WordPress browser extension hiding and showing the admin bar\" /><p>Everything runs locally on your device, nothing gets tracked. Built by the community, now officially supported by WordPress. Give it a spin!</p>",
+  "created_at": "2026-08-13T12:00:00Z",
+  "categories": [
+    "2026",
+    "Browser",
+    "Extension",
+    "Development",
+    "DidYouKnow",
+    "WordPress",
+    "article",
+    "did-you-know"
+  ]
+}
