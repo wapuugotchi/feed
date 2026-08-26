@@ -42,9 +42,11 @@ jobs:
           go run ./app
 
       - name: Commit and push if changed
+        id: commit
         run: |
           if git diff --quiet; then
             echo "No changes"
+            echo "updated=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -52,6 +54,7 @@ jobs:
           git add data feed.xml
           git commit -m "Update feed"
           git push
+          echo "updated=true" >> "$GITHUB_OUTPUT"
 
       - name: Prepare Pages site
         run: |
@@ -69,3 +72,34 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Notify via WhatsApp
+        if: steps.commit.outputs.updated == 'true'
+        env:
+          CALLMEBOT_PHONE: ${{ secrets.CALLMEBOT_PHONE }}
+          CALLMEBOT_APIKEY: ${{ secrets.CALLMEBOT_APIKEY }}
+        run: |
+          python3 - <<'PYEOF'
+          import os
+          import urllib.parse
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          try:
+              root = ET.parse("feed.xml").getroot()
+              item = root.find("./channel/item")
+              title = item.findtext("title") or "New entry"
+              link = item.findtext("link") or ""
+              message = f"Wapuugotchi RSS: {title}\n{link}"
+
+              params = {
+                  "phone": os.environ["CALLMEBOT_PHONE"],
+                  "text": message,
+                  "apikey": os.environ["CALLMEBOT_APIKEY"],
+              }
+              url = "https://api.callmebot.com/whatsapp.php?" + urllib.parse.urlencode(params)
+              with urllib.request.urlopen(url, timeout=15) as resp:
+                  print(resp.status, resp.read().decode(errors="replace"))
+          except Exception as exc:
+              print(f"WhatsApp notification failed (non-fatal): {exc}")
+          PYEOF
