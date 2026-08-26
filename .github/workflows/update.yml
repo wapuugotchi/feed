@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: feed-update
@@ -15,6 +17,9 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     env:
       GH_MODELS_TOKEN: ${{ secrets.GH_MODELS_TOKEN }}
       FEED_TITLE: ${{ vars.FEED_TITLE }}
@@ -44,3 +49,20 @@ jobs:
           git add data feed.xml
           git commit -m "Update feed"
           git push
+
+      - name: Prepare Pages site
+        run: |
+          mkdir -p _site
+          cp index.html feed.xml _site/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
