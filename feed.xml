@@ -4,7 +4,20 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Wed, 19 Aug 2026 23:33:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <id>6d964ec3e5aa45335b1e279bc2dd3133</id>
+      <title>WordCamp US 2026 – Recap from Phoenix</title>
+      <link>https://wordpress.org/news/2026/08/wcus-2026-recap/</link>
+      <pubDate>Wed, 26 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…WordCamp US 2026 in Phoenix drew over 1,100 attendees, with 425 people joining Contributor Day?&lt;/p&gt;&lt;p&gt;WordPress 7.1 launched during the closing ceremony, Phoenix declared it “WordPress Day”, and Matt Mullenweg reminded everyone: “Tech needs to be simpler.”&lt;/p&gt;&lt;p&gt;Next up: WordCamp Asia 2027 in Penang and WordCamp Europe 2027 in Málaga.&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/ss7ngc1VU-Q?feature=oembed&amp;autoplay=1&amp;mute=1&amp;playsinline=1</iframe>
+      <category>2026</category>
+      <category>WordCamp</category>
+      <category>WCUS</category>
+      <category>Community</category>
+      <category>Recap</category>
+    </item>
     <item>
       <id>5b8389b9c3045cfacaa9a8872375d27f</id>
       <title>WordPress 7.1 “Mary Lou”</title>
