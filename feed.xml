@@ -10,7 +10,7 @@
       <title>People Can Follow Your WordPress Blog Like a Social Account</title>
       <link>https://wordpress.org/plugins/activitypub/</link>
       <pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…that you can gain followers on your WordPress blog without ever creating a social media account?&lt;/p&gt;&lt;p&gt;There&#39;s a whole network of independent social apps—Mastodon is probably the best known—that communicate with each other instead of all belonging to the same company. Some call this the Fediverse. Install a free plugin, and your WordPress blog becomes part of it, right from your own domain.&lt;/p&gt;&lt;p&gt;This way, people can follow your blog, like your posts, or reply to them. No algorithm deciding who sees your content, no ads, and nothing extra for you to worry about. If you&#39;re interested, check out the ActivityPub plugin!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…that you can gain followers on your WordPress blog, just like you do on social media platforms?&lt;/p&gt;&lt;p&gt;There’s a huge network called the Fediverse. It connects independent platforms like Mastodon with one another, rather than everything being owned by a single corporation. With a free plugin, you can make your WordPress blog part of it.&lt;/p&gt;&lt;p&gt;That means users can follow your blog, like it, or reply to your posts. No algorithms, no ads, and your content stays yours! Why not check out the WordPress plugin “ActivityPub”?&lt;/p&gt;</description>
       <iframe>https://www.youtube.com/embed/QzYozbNneVc?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=en-US&amp;autohide=2&amp;wmode=transparent</iframe>
       <category>2026</category>
       <category>Fediverse</category>
@@ -26,7 +26,7 @@
       <title>WordPress Started Out as a Fork of a Little-Known Blogging Tool</title>
       <link>https://wordpress.org/about/history/</link>
       <pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…that WordPress didn&#39;t start from scratch, but was actually a fork of an old, abandoned blogging tool called b2/cafelog?&lt;/p&gt;&lt;p&gt;In 2003, Matt Mullenweg and Mike Little took over the discontinued project and built it into the WordPress we know today. The name itself was suggested by a friend, Christine Selleck.&lt;/p&gt;&lt;p&gt;More than two decades later, this fork powers a huge portion of the web—proof that major open-source projects can grow from the smallest of beginnings.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…that WordPress didn&#39;t start from scratch, but was actually a fork of an old, abandoned blogging tool called b2/cafelog?&lt;/p&gt;&lt;p&gt;In 2003, Matt Mullenweg and Mike Little took over the discontinued project and built it into the WordPress we know today. The name itself was suggested by a friend, Christine Selleck.&lt;/p&gt;&lt;p&gt;More than two decades later, this fork powers a huge portion of the web, proof that major open-source projects can grow from the smallest of beginnings.&lt;/p&gt;</description>
       <category>History</category>
       <category>OpenSource</category>
       <category>DidYouKnow</category>
