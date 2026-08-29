@@ -6,6 +6,50 @@
     <description></description>
     <lastBuildDate>Sat, 29 Aug 2026 12:00:00 +0000</lastBuildDate>
     <item>
+      <id>1611b9e29df7c590ec46623ddce24676</id>
+      <title>People Can Follow Your WordPress Blog Like a Social Account</title>
+      <link>https://wordpress.org/plugins/activitypub/</link>
+      <pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…that you can gain followers on your WordPress blog without ever creating a social media account?&lt;/p&gt;&lt;p&gt;There&#39;s a whole network of independent social apps—Mastodon is probably the best known—that communicate with each other instead of all belonging to the same company. Some call this the Fediverse. Install a free plugin, and your WordPress blog becomes part of it, right from your own domain.&lt;/p&gt;&lt;p&gt;This way, people can follow your blog, like your posts, or reply to them. No algorithm deciding who sees your content, no ads, and nothing extra for you to worry about. If you&#39;re interested, check out the ActivityPub plugin!&lt;/p&gt;</description>
+      <iframe>https://www.youtube.com/embed/QzYozbNneVc?version=3&amp;rel=1&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;fs=1&amp;hl=en-US&amp;autohide=2&amp;wmode=transparent</iframe>
+      <category>2026</category>
+      <category>Fediverse</category>
+      <category>ActivityPub</category>
+      <category>IndieWeb</category>
+      <category>DidYouKnow</category>
+      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
+      <id>56b1d0611b7795f085d198be98f370c1</id>
+      <title>WordPress Started Out as a Fork of a Little-Known Blogging Tool</title>
+      <link>https://wordpress.org/about/history/</link>
+      <pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…that WordPress didn&#39;t start from scratch, but was actually a fork of an old, abandoned blogging tool called b2/cafelog?&lt;/p&gt;&lt;p&gt;In 2003, Matt Mullenweg and Mike Little took over the discontinued project and built it into the WordPress we know today. The name itself was suggested by a friend, Christine Selleck.&lt;/p&gt;&lt;p&gt;More than two decades later, this fork powers a huge portion of the web—proof that major open-source projects can grow from the smallest of beginnings.&lt;/p&gt;</description>
+      <category>History</category>
+      <category>OpenSource</category>
+      <category>DidYouKnow</category>
+      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
+      <id>e24b61ec41e126d685c1cfcc7cce1001</id>
+      <title>Five for the Future: Giving Back 5% to WordPress</title>
+      <link>https://wordpress.org/five-for-the-future/</link>
+      <pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…WordPress asks companies that profit from it to give back 5% of their resources?&lt;/p&gt;&lt;p&gt;It&#39;s called Five for the Future: businesses sponsor developers, designers, and support staff to spend part of their work week contributing directly to WordPress, instead of just relying on volunteers.&lt;/p&gt;&lt;p&gt;Hosting companies, agencies, and plugin makers all take part this way, sponsoring contributors across dozens of make.wordpress.org teams to help keep WordPress moving forward.&lt;/p&gt;</description>
+      <category>2026</category>
+      <category>Community</category>
+      <category>OpenSource</category>
+      <category>FiveForTheFuture</category>
+      <category>DidYouKnow</category>
+      <category>WordPress</category>
+      <category>article</category>
+      <category>did-you-know</category>
+    </item>
+    <item>
       <id>cf1887b01a80a49615d31d2000d5cc07</id>
       <title>AI-Generated Content Labeling Isn&#39;t a Global Rule (Yet)</title>
       <link>https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content</link>
@@ -60,18 +104,6 @@
       <category>did-you-know</category>
     </item>
     <item>
-      <id>fca4eee8d7f8e2e50ac428819c61d84f</id>
-      <title>WordCamp US 2026 – Guide to Phoenix</title>
-      <link>https://wordpress.org/news/2026/07/wcus-2026-guide/</link>
-      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
-      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…WordCamp US is packing its bags for Phoenix this August 16–19?&lt;/p&gt;&lt;p&gt;Pack your laptop (and sunscreen). Contributor Day opens things up with a full day of community bug-squashing, then it&#39;s talks on AI, dev skills, and WordPress basics, a Showcase Day of real sites, a Happiness Bar for troubleshooting, and a Career Corner if you&#39;re job hunting.&lt;/p&gt;&lt;p&gt;Grab a ticket and book your hotel — rooms are filling up fast!&lt;/p&gt;</description>
-      <category>2026</category>
-      <category>WordCamp</category>
-      <category>WCUS</category>
-      <category>Community</category>
-      <category>Announcement</category>
-    </item>
-    <item>
       <id>c9a2f4718e3b6d05a1f8c92b73e6a04d</id>
       <title>Wapuu Studio – Design Your Own Wapuu with AI</title>
       <link></link>
@@ -84,6 +116,18 @@
       <category>DidYouKnow</category>
       <category>did-you-know</category>
       <category>article</category>
+    </item>
+    <item>
+      <id>fca4eee8d7f8e2e50ac428819c61d84f</id>
+      <title>WordCamp US 2026 – Guide to Phoenix</title>
+      <link>https://wordpress.org/news/2026/07/wcus-2026-guide/</link>
+      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
+      <description>&lt;p&gt;Did you know… 🤓&lt;/p&gt;&lt;p&gt;…WordCamp US is packing its bags for Phoenix this August 16–19?&lt;/p&gt;&lt;p&gt;Pack your laptop (and sunscreen). Contributor Day opens things up with a full day of community bug-squashing, then it&#39;s talks on AI, dev skills, and WordPress basics, a Showcase Day of real sites, a Happiness Bar for troubleshooting, and a Career Corner if you&#39;re job hunting.&lt;/p&gt;&lt;p&gt;Grab a ticket and book your hotel — rooms are filling up fast!&lt;/p&gt;</description>
+      <category>2026</category>
+      <category>WordCamp</category>
+      <category>WCUS</category>
+      <category>Community</category>
+      <category>Announcement</category>
     </item>
     <item>
       <id>f2a8c51e9b4d7e30c5f1a82b6d9e4073</id>

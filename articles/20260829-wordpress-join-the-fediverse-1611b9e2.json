@@ -1,0 +1,18 @@
+{
+  "id": "1611b9e29df7c590ec46623ddce24676",
+  "title": "People Can Follow Your WordPress Blog Like a Social Account",
+  "link": "https://wordpress.org/plugins/activitypub/",
+  "content": "<p>Did you know… 🤓</p><p>…that you can gain followers on your WordPress blog without ever creating a social media account?</p><p>There's a whole network of independent social apps—Mastodon is probably the best known—that communicate with each other instead of all belonging to the same company. Some call this the Fediverse. Install a free plugin, and your WordPress blog becomes part of it, right from your own domain.</p><p>This way, people can follow your blog, like your posts, or reply to them. No algorithm deciding who sees your content, no ads, and nothing extra for you to worry about. If you're interested, check out the ActivityPub plugin!</p>",
+  "iframe": "https://www.youtube.com/embed/QzYozbNneVc?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en-US&autohide=2&wmode=transparent",
+  "created_at": "2026-08-29T12:00:00Z",
+  "categories": [
+    "2026",
+    "Fediverse",
+    "ActivityPub",
+    "IndieWeb",
+    "DidYouKnow",
+    "WordPress",
+    "article",
+    "did-you-know"
+  ]
+}
