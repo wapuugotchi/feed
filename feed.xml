@@ -4,7 +4,16 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Sat, 29 Aug 2026 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 19:53:09 +0000</lastBuildDate>
+    <item>
+      <id>d0ef7bbdca3649a43a9bda97468e7027</id>
+      <title>WordPress 7.1.1 Maintenance and Security Release</title>
+      <link>https://wordpress.org/news/2026/09/wordpress-7-1-1-maintenance-and-security-release/</link>
+      <pubDate>Thu, 17 Sep 2026 19:53:09 +0000</pubDate>
+      <description>This security and maintenance release features 17 bug fixes on Core, 19 bug fixes for the Block Editor, and 11 security fixes. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.1 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update [&amp;#8230;]</description>
+      <category>Releases</category>
+      <category>Security</category>
+    </item>
     <item>
       <id>1611b9e29df7c590ec46623ddce24676</id>
       <title>People Can Follow Your WordPress Blog Like a Social Account</title>
@@ -76,17 +85,6 @@
       <category>WCUS</category>
       <category>Community</category>
       <category>Recap</category>
-    </item>
-    <item>
-      <id>5b8389b9c3045cfacaa9a8872375d27f</id>
-      <title>WordPress 7.1 “Mary Lou”</title>
-      <link>https://wordpress.org/news/2026/08/mary-lou/</link>
-      <pubDate>Wed, 19 Aug 2026 23:33:49 +0000</pubDate>
-      <description>WordPress 7.1, “Mary Lou,” is here—celebrating the pioneering jazz pianist, composer, and arranger Mary Lou Williams and her spirit of reinvention and collaboration. This release brings a more flexible, responsive, and collaborative WordPress experience, with new responsive styling controls, a redesigned media editor, richer Notes with mentions and inline feedback, improved image processing, and new Playlist and Tabs blocks.</description>
-      <category>Releases</category>
-      <category>7-1</category>
-      <category>7.1</category>
-      <category>releases</category>
     </item>
     <item>
       <id>f09cc80222f0b6ede7e537094fc679b5</id>
