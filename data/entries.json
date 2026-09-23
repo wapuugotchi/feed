@@ -1,11 +1,11 @@
 [
   {
-    "id": "d0ef7bbdca3649a43a9bda97468e7027",
+    "id": "591daba51b46b5ee56a67888ed1a9dbd",
     "source": "wordpress-releases",
-    "title": "WordPress 7.1.1 Maintenance and Security Release",
-    "link": "https://wordpress.org/news/2026/09/wordpress-7-1-1-maintenance-and-security-release/",
-    "content": "This security and maintenance release features 17 bug fixes on Core, 19 bug fixes for the Block Editor, and 11 security fixes. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.1 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update [&#8230;]",
-    "created_at": "2026-09-17T19:53:09Z",
+    "title": "WordPress 7.1.2 Release",
+    "link": "https://wordpress.org/news/2026/09/wordpress-7-1-2-release/",
+    "content": "This security release features a fix for a critical severity security vulnerability. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.2 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background updates, [&#8230;]",
+    "created_at": "2026-09-22T14:01:20Z",
     "categories": [
       "Releases",
       "Security"
