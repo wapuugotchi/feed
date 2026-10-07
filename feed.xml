@@ -4,13 +4,13 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Tue, 22 Sep 2026 14:01:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 17:00:00 +0000</lastBuildDate>
     <item>
-      <id>591daba51b46b5ee56a67888ed1a9dbd</id>
-      <title>WordPress 7.1.2 Release</title>
-      <link>https://wordpress.org/news/2026/09/wordpress-7-1-2-release/</link>
-      <pubDate>Tue, 22 Sep 2026 14:01:20 +0000</pubDate>
-      <description>This security release features a fix for a critical severity security vulnerability. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.2 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background updates, [&amp;#8230;]</description>
+      <id>5e7bc84a7b9abb380d7dd724cbba4e2b</id>
+      <title>WordPress 7.1.3 Maintenance and Security Release</title>
+      <link>https://wordpress.org/news/2026/10/wordpress-7-1-3-maintenance-and-security-release/</link>
+      <pubDate>Tue, 06 Oct 2026 17:00:00 +0000</pubDate>
+      <description>This security and maintenance release features 7 security fixes and 4 bug fixes. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.3 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background [&amp;#8230;]</description>
       <category>Releases</category>
       <category>Security</category>
     </item>
