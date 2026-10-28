@@ -4,13 +4,13 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Tue, 20 Oct 2026 16:02:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 15:49:21 +0000</lastBuildDate>
     <item>
-      <id>65fc41f84ea7a4d012041ded9f4dec04</id>
-      <title>WordPress 7.2 Beta 1 is Ready for Download and Testing</title>
-      <link>https://wordpress.org/news/2026/10/wordpress-7-2-beta-1-is-ready-for-download-and-testing/</link>
-      <pubDate>Tue, 20 Oct 2026 16:02:09 +0000</pubDate>
-      <description>This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test environment or local site to explore the new features. How to Test WordPress 7.2 Beta 1 You can test WordPress 7.2 Beta 1 in any of [&amp;#8230;]</description>
+      <id>c982e564bdceb1a749781b2122dd8a1f</id>
+      <title>WordPress 7.2 Beta 2 </title>
+      <link>https://wordpress.org/news/2026/10/wordpress-7-2-beta-2/</link>
+      <pubDate>Tue, 27 Oct 2026 15:49:21 +0000</pubDate>
+      <description>WordPress 7.2 Beta 2 is ready for download and testing!  This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test environment or local site to explore the new features. How to Test WordPress 7.2 Beta [&amp;#8230;]</description>
       <category>Development</category>
       <category>Releases</category>
       <category>7.2</category>
