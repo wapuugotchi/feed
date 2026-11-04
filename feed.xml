@@ -4,15 +4,18 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Wed, 28 Oct 2026 17:13:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 15:45:29 +0000</lastBuildDate>
     <item>
-      <id>45e36923aa922d3ad55df634e49ef503</id>
-      <title>WordPress 7.1.4</title>
-      <link>https://wordpress.org/news/2026/10/wordpress-7-1-4/</link>
-      <pubDate>Wed, 28 Oct 2026 17:13:02 +0000</pubDate>
-      <description>This security release features fixes for multiple issues. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.4 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background updates, the update process will [&amp;#8230;]</description>
+      <id>c865d76d8963535fe90f29d5f9f19ba6</id>
+      <title>WordPress 7.2 Beta 4</title>
+      <link>https://wordpress.org/news/2026/11/wordpress-7-2-beta-4/</link>
+      <pubDate>Tue, 03 Nov 2026 15:45:29 +0000</pubDate>
+      <description>WordPress 7.2 Beta 4 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test environment or local site to explore the new features. Wait, what happened to 7.2 Beta [&amp;#8230;]</description>
+      <category>Development</category>
       <category>Releases</category>
-      <category>Security</category>
+      <category>7.2</category>
+      <category>development</category>
+      <category>release</category>
     </item>
     <item>
       <id>1611b9e29df7c590ec46623ddce24676</id>
