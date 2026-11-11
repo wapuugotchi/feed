@@ -1,17 +1,17 @@
 [
   {
-    "id": "c865d76d8963535fe90f29d5f9f19ba6",
+    "id": "58e9a637e0d43c3df30fc31910b5551f",
     "source": "wordpress-releases",
-    "title": "WordPress 7.2 Beta 4",
-    "link": "https://wordpress.org/news/2026/11/wordpress-7-2-beta-4/",
-    "content": "WordPress 7.2 Beta 4 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test environment or local site to explore the new features. Wait, what happened to 7.2 Beta [&#8230;]",
-    "created_at": "2026-11-03T15:45:29Z",
+    "title": "WordPress 7.2 Beta 5",
+    "link": "https://wordpress.org/news/2026/11/wordpress-7-2-beta-5/",
+    "content": "WordPress 7.2 Beta 5 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test environment or local site to explore the new features. How to Test WordPress 7.2 Beta [&#8230;]",
+    "created_at": "2026-11-10T16:59:09Z",
     "categories": [
       "Development",
       "Releases",
       "7.2",
       "development",
-      "release"
+      "releases"
     ]
   }
 ]

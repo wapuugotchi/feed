@@ -4,18 +4,18 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Tue, 03 Nov 2026 15:45:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 16:59:09 +0000</lastBuildDate>
     <item>
-      <id>c865d76d8963535fe90f29d5f9f19ba6</id>
-      <title>WordPress 7.2 Beta 4</title>
-      <link>https://wordpress.org/news/2026/11/wordpress-7-2-beta-4/</link>
-      <pubDate>Tue, 03 Nov 2026 15:45:29 +0000</pubDate>
-      <description>WordPress 7.2 Beta 4 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test environment or local site to explore the new features. Wait, what happened to 7.2 Beta [&amp;#8230;]</description>
+      <id>58e9a637e0d43c3df30fc31910b5551f</id>
+      <title>WordPress 7.2 Beta 5</title>
+      <link>https://wordpress.org/news/2026/11/wordpress-7-2-beta-5/</link>
+      <pubDate>Tue, 10 Nov 2026 16:59:09 +0000</pubDate>
+      <description>WordPress 7.2 Beta 5 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test environment or local site to explore the new features. How to Test WordPress 7.2 Beta [&amp;#8230;]</description>
       <category>Development</category>
       <category>Releases</category>
       <category>7.2</category>
       <category>development</category>
-      <category>release</category>
+      <category>releases</category>
     </item>
     <item>
       <id>1611b9e29df7c590ec46623ddce24676</id>
