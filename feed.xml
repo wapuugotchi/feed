@@ -4,18 +4,18 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Tue, 10 Nov 2026 16:59:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 16:04:13 +0000</lastBuildDate>
     <item>
-      <id>58e9a637e0d43c3df30fc31910b5551f</id>
-      <title>WordPress 7.2 Beta 5</title>
-      <link>https://wordpress.org/news/2026/11/wordpress-7-2-beta-5/</link>
-      <pubDate>Tue, 10 Nov 2026 16:59:09 +0000</pubDate>
-      <description>WordPress 7.2 Beta 5 is ready for download and testing! This beta release is intended for testing and development only. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, use a test environment or local site to explore the new features. How to Test WordPress 7.2 Beta [&amp;#8230;]</description>
-      <category>Development</category>
+      <id>248ff4e87bee2a82eea10bc97d571446</id>
+      <title>WordPress 7.2 Release Candidate 1</title>
+      <link>https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-1/</link>
+      <pubDate>Tue, 17 Nov 2026 16:04:13 +0000</pubDate>
+      <description>The first Release Candidate (“RC1”) for WordPress 7.2 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended to evaluate RC1 on a test server and site. WordPress 7.2 RC1 [&amp;#8230;]</description>
+      <category>General</category>
       <category>Releases</category>
       <category>7.2</category>
       <category>development</category>
-      <category>releases</category>
+      <category>release</category>
     </item>
     <item>
       <id>1611b9e29df7c590ec46623ddce24676</id>
