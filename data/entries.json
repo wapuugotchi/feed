@@ -1,17 +1,14 @@
 [
   {
-    "id": "248ff4e87bee2a82eea10bc97d571446",
+    "id": "41f56cbc0a64da3f6e90dc5e7d340294",
     "source": "wordpress-releases",
-    "title": "WordPress 7.2 Release Candidate 1",
-    "link": "https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-1/",
-    "content": "The first Release Candidate (“RC1”) for WordPress 7.2 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended to evaluate RC1 on a test server and site. WordPress 7.2 RC1 [&#8230;]",
-    "created_at": "2026-11-17T16:04:13Z",
+    "title": "WordPress 7.1.5 Release",
+    "link": "https://wordpress.org/news/2026/11/wordpress-7-1-5-release/",
+    "content": "This security release features fixes for multiple issues. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.5 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background updates, the update process will [&#8230;]",
+    "created_at": "2026-11-18T17:08:59Z",
     "categories": [
-      "General",
       "Releases",
-      "7.2",
-      "development",
-      "release"
+      "Security"
     ]
   }
 ]
