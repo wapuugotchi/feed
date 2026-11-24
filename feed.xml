@@ -4,15 +4,18 @@
     <title>Wapuugotchi RSS</title>
     <link>https://wapuugotchi.github.io/feed/</link>
     <description></description>
-    <lastBuildDate>Wed, 18 Nov 2026 17:08:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 15:53:15 +0000</lastBuildDate>
     <item>
-      <id>41f56cbc0a64da3f6e90dc5e7d340294</id>
-      <title>WordPress 7.1.5 Release</title>
-      <link>https://wordpress.org/news/2026/11/wordpress-7-1-5-release/</link>
-      <pubDate>Wed, 18 Nov 2026 17:08:59 +0000</pubDate>
-      <description>This security release features fixes for multiple issues. Because this is a security release, it is recommended that you update your sites immediately. You can download WordPress 7.1.5 from WordPress.org, or visit your WordPress Dashboard, click “Updates”, and then click “Update Now”. If you have sites that support automatic background updates, the update process will [&amp;#8230;]</description>
+      <id>850460fc36b81eceb58d378d8672dc60</id>
+      <title>WordPress 7.2 Release Candidate 3</title>
+      <link>https://wordpress.org/news/2026/11/wordpress-7-2-release-candidate-3/</link>
+      <pubDate>Tue, 24 Nov 2026 15:53:15 +0000</pubDate>
+      <description>Release Candidate 3 (“RC3”) for WordPress 7.2 is ready for download and testing! This version of the WordPress software is still under development. Please do not install, run, or test this version of WordPress on production or mission-critical websites. Instead, it’s recommended to evaluate RC3 on a test server and site. Wait, what happened to [&amp;#8230;]</description>
+      <category>Development</category>
       <category>Releases</category>
-      <category>Security</category>
+      <category>7.2</category>
+      <category>development</category>
+      <category>releases</category>
     </item>
     <item>
       <id>1611b9e29df7c590ec46623ddce24676</id>
